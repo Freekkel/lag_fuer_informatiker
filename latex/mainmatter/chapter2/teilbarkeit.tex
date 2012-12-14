@@ -1,0 +1,235 @@
+\section{Teilbarkeit}
+
+\subsection{Definition:}
+Seien $a,b \in \mathbb{Z}$. Gibt es ein $s \in \mathbb{Z}$ mit $a = b\cdot s$, so sagen wir "`b teilt a"', schreiben $b|a$ und nennen $b$ einen \underline{Teiler} von a. 
+%
+%
+%
+\subsection{Bemerkung:}
+\begin{description}
+	\item[-] aus $a|b$ und $a|c$ folgt stets $a|(b\pm c)$ \\
+		$(b=a\cdot x)$ und $c =a\cdot y \Rightarrow b\pm c = a(x\pm y))$
+
+	\item[-] aus $a|b$ und $c|d$ folgt stets $ac|bd$ \\
+		$(b=ax)$ und $d =c\cdot y \Rightarrow bd = (ac)(xy)$
+\end{description}
+%
+%
+%
+\subsection{Satz:}
+Sei $n \in \mathbb{N}_{\diagdown\{0\}}$ \underline{fest}. eine Äquivalenzrelation $\equiv_{n}$ auf $\mathbb{Z}$ ist gegeben durch: $ a \equiv_{n} b \Leftrightarrow n|(b-a)$ (sogenannte Kongruenz modulo n)
+%
+%
+%
+\subsection{Beweis:}
+\begin{description}
+	\item[- \underline{reflexiv:}] Sei $ a \in \mathbb{Z}$. Da $ 0 = n\cdot  0$, ist $n \diagdown 0 = (a-b)$\\
+						 $\Rightarrow a \equiv_{n} 
+					  a$
+	\item[- \underline{symmetrisch:}] Seien $a,b \in \mathbb{Z}$ mit $a \equiv_{n} b \Rightarrow n|(b-a)$\\
+						$\Rightarrow n|(a-b) \Rightarrow bn\equiv_{n} a$
+	
+	\item[- \underline{transitiv:}] Seien $a,b \in \mathbb{Z}$ mit $a\equiv_{n} b$ und $b\equiv_{n} c$ \\
+						$\Rightarrow n|(b-a)$ und $n|(c-b)$ \\
+						$\Rightarrow^{\small{1.2}} n|(c-b) + (b-a) = c-a$\\
+						$\Rightarrow a \equiv_{n} c$
+\end{description}
+%
+%
+%
+\subsection{Satz:} 
+Die Äquivalenzklasse zu $\equiv_{n}$ sind genau: $[0], [1], [2], \dotsc  , [n-1]$ Insbesondere gilt die sogenannte \underline{Division mit Rest} in $\mathbb{Z}$: zu gegebenen $a \in \mathbb{Z}, 0 < n \in \mathbb{N}$ existieren $q, r \in \mathbb{Z}$ mit $ a= qn+r$ und $r \in \{0,\dotsc  , n-1\}$ und $q$ und $r$ sind \underline{eindeutig} bestimmt.
+
+\begin{description}
+	\item[\underline{Beweis:}] Sei $K$ eine Äquivalenzklasse zu $\equiv_{n}$. Wähle $r \in \mathbb{N}$ minimal bzgl. $r \in 
+					K$. 
+	\begin{description}
+		\item[Beachte:] $K$ enthält eine natürliche Zahl. Ist $ a\in K$ negativ, so addiere ein Vielfaches $q\cdot n$ von $n$ 
+					sodass $a+qn > 0$. Dann ist $n|qn=(a+qn)-a$, also $a+qn \in K$. \\
+					Dann ist $r \in \{0,\dotsc  , n-q\}$, dann wäre $r \geq n$, so $n|n=r-(r-n)$ also $r-n\in K$ 
+					 natürliche Zahl $< r$. $\lightning$\\
+					Somit ist $K$ eine der Äquivalenzklassen $[0], [1], \dotsc  , [n-1]$\\
+					Sei nun $0 \leq r < s \leq n-1$
+		\item[Annahme:] $[r] = [s] \Rightarrow r\equiv_{n} s, n| s-r\lightning$ zu $0 < s-r < n$
+		\item[Fazit:] $[r] \neq [s]$ \\
+				Damit $\mathbb{Z} = [0]$ $\dot{\bigcup}$ $[1]$ $\dot{\bigcup} \dotsc   $ $\dot{\bigcup}$ $[n-1]$ \\
+				Ist $ a \in \mathbb{Z}$, so $a \in [r]$ für ein $r \in \{ 0, \dotsc  , n-1\} \Rightarrow n|a-r$ \\
+				also: $a-r=qn$ für ein $q \in \mathbb{Z}, a =qn+r$
+	\end{description}
+	\item[Eindeutigkeit von q und r:] \qquad\\
+						Sei $q_{1}n+r_{1}=a=q_{2}n+r_{2}$ mit $r_{1}, r_{2} \in \{0, \dotsc  , n-1\}$ \\
+						Dann: ($q_{1}-q_{2})n=r_{2}-r_{1}$, $n|r_{2}-r_{1}$, $r_{1}\equiv_{n} r_{2} 
+						\Rightarrow r$.\\
+						Somit $(q_{1} -a_{2}) \cdot n = 0 \Rightarrow^{n\neq 0} q_{1}-a_{2} = 0$, $q_{1} 
+						= q_{2} \qquad \square$\\
+\end{description}
+%
+%
+%
+\subsection{Definition:} Eine natürliche Zahl $p \geq 2$ heißt Primzahl, wenn $1$ und $p$ die einzigigen natürlichen Zahlen 
+				sind, die p teilen.
+\begin{description}
+	\item[Also:] $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, \dotsc  $
+\end{description}
+%
+%
+%
+\subsubsection{Satz:}
+
+\begin{enumerate}[label={\alph*)}]
+     \item Jede natürliche Zahl $n \geq 2$ ist ein Produkt von Primzahlen.
+     \item Euklid: Es gibt unendlich viele Primzahlen
+\end{enumerate}
+\begin{description}
+	\item[Beweis:] \quad \\
+		\begin{enumerate}[label={\alph*)}]
+			\item Wähle einen kleinsten Teiler $> 1$ von $n$. Dieser muß Primzhal sein, also $n=p \cdot b$ mit $b < 
+				n$. Zerlege nun $b$ weiter.
+			\item \underline{Annahme} $p_{1}, \dotsc  , p_{s}$ sind die einzigen Primzahlen. 
+			\begin{description}
+				\item[Bild:] $m=p_{1}, \dotsc  , p_{s}+1$. Nach $(a)$ muss einer der $p_{i}$ Teiler von m 
+					      sein.
+				\item[Dann:] $p_{i}|m$ und $p_{i}|p_{1}-p_{s} \Rightarrow ^{1.2} p_{i}| m-p_{1}-p_{2} = 1 
+						\lightning$
+			\end{description}
+		\end{enumerate}
+\end{description}
+%
+%
+%
+\subsection{Fundamentalsatz der Zahlentheorie} 
+$0 \neq z \in \mathbb{Z}$ Dann hat $z$ eine \underline{eindeutige} Darstellung der Form $z = \varepsilon \cdot p_{1} \cdot p_{2} \cdot \dotsc   \cdot p_{s}$ mit $\varepsilon \in \{\pm1 \}, p_{1}\leq p_{2} \leq \dotsc   \leq p_{s}$ Primzahlen.
+	\begin{description}
+		\item[Beweis:] o.E. $z \geq 0$ Induktion nach $z$. $z = 1$ Wähle $s = 0$
+		\begin{description}
+			\item[] \underline{$Z \geq z$} Sei $z =p_{1}, \dotsc , p_{z} = q_{1}, \dotsc , q_{t}$ für gewisse 
+				Primzahlen $p_{i}, q_{j}$ mit $p_{1} \leq \dotsc   \leq p_{s}, q_{1} \leq \dotsc   \leq q_{t}$.
+			\item[] \underline{z.z.:} $s=t$ und $p_{i} = a_{i}$ für $1 \leq i \leq s$.\\
+				$s \geq$ und $ t\geq 1$\\
+				o.E. $p_{1} \leq q_{1}$
+			\item[] Annahme: $p_{1} \lneqq q_{1} \leq q_{2} \leq \dotsc \leq q_{t}$ \\
+				Division mit Rest durch $p_{1}$ \qquad $q_{j} = a_{j} p_{1} + rj$ mit $0 \leq rj < p_{1}$ Da 
+				$p_{j}$ Primzahl $\Rightarrow rj > 0 für 1 \leq j \leq t$.
+			\item[] Betrachte: $m=r_{1}, r_{2} \dotsc r_{t} < p^{t}_{1} < q_{1} \cdot q_{2} \dotsc q_{t} = z$
+			\item[] Induktion $\Rightarrow m$ hat \underline{eindeutige} Zerlegung im Produkt vin Primzahlen 
+				 Insbesondere $p_{1}\ndivides m$ (da $p_{1}\ndivides rj \quad \forall j$) \\
+				Nun: $m = (q_{1} -a_{1}p_{1})(q_{2}-a_{2}p_{1})\dotsc (q_{t}-a_{t}p_{1}) = q_{1} \cdot q_{2} 
+				\dotsc q_{t} + p_{1} (\dotsc) \Rightarrow^{p_{4}|2} p_{1}|m \ \lightning$
+			\item[] Fazit: $p_{1} = q_{q}$ und $p_{2} \dotsc p_{s} = q_{2} \dotsc q_{t}$\\
+					Induktion liefer $p_{j} = q_{j}$ für $z \leq j \leq t =s$
+		\end{description}
+	\end{description}
+%
+%
+%
+\subsection{Definition:} Für $a,b \in \mathbb{Z}\diagdown\{0\}$ sei
+	\begin{description}
+	\item[] 
+		\begin{description}
+		\item[]
+		\item[-] $ggT(a,b) = max \{d\in \mathbb{Z} \ | \ d|a \wedge d|b\}$
+		\item[-] \underline{kleinster gemeinsamer Vielfaches} $kgV(a,b) = min\{c\in\mathbb{N} \ | \ a|c\wedge b|c\}$
+		\end{description}
+	\end{description}
+%
+%
+%
+\subsection{Bemerkung:}
+Ist $a = \pm p^{\alpha_{1}}_{1} \dotsc p^{\alpha_{s}}_{s}$ und $b = \pm p^{\beta_{1}}_{1} \dotsc p^{\beta_{s}}_{s}$ mit Primzahlen $p_{1} < p_{2} < \dotsc p_{s}$ und gewissen $\alpha_{i} \geq 0, \ \beta_{i} \geq 0$, so gilt $ggT(a,b) = p^{\gamma_{1}}_{1} \dotsc p^{\gamma_{s}}_{s}$ wo $\gamma = min\{\alpha_{i}\beta_{i}\}$\\
+$kgV(a,b) = p^{\delta_{1}}_{1} \dotsc p^{\delta_{s}}_{s}$ wo $\delta_{i} = max\{ \alpha_{i}, \beta_{i}\}$\\
+Insbesondere: $\gamma_{i} + \delta_{i} = \alpha_{i} + \beta_{i}$ und daher $|a\cdot b| = ggT(a,b) \cdot kgV(a,b)$
+%
+%
+%
+\subsection{\underline{Euklidischer Algorithmus}}
+Zur Bestimmung von $ggT(a,b)$\\
+Seien $a,b \in \mathbb{Z} \diagdown\{0\}$
+	\begin{enumerate}
+		\item Setze $a_{0} = |a|$, $a_{1} = |b|$, o.E. $q_{1} < q_{0}$
+		\item Wiederhole Division mit Rest:\\
+			$q_{i-1} = q_{i} \cdot a_{i} + a_{i+1}$ wo $0 \leq a_{i+1} <a_{i}$
+		\item Ergibt sich erstmalig $a_{m+1} = 0$, so ist $a_{m} = ggT(a,b)$\\
+			Beispiel:
+		\begin{description}
+			\item[] $a=90, b=84$
+			\item[] $90 = a = 1\cdot 84+6$
+			\item[] $84 = 14 \cdot 6 +0$
+			\item $\Rightarrow 6 = ggT(90,84)$
+		\end{description}
+	\end{enumerate}
+%
+%
+%
+\subsection{ } /* Fehlerhafte Nummerierung an der Tafel, oder in der Mitschrift. */
+%
+%
+%
+\subsection{Satz} Der Euklidischer Alogorithmus terminiert und liefert den $ggT$ 
+\begin{description}
+	\item[Beweis:] Er terminiert, da $a_{0} > a_{1} > a_{2} > \dotsc > a_{m} > a_{m+1} \geq 0$ in $\mathbb{N}$
+	\item[Zwischenschritte:] 
+	\begin{description}
+		\item[-] Ist $a = q \cdot b+r$, so $ggT(a,b) = ggT(b,r)$
+		\item[-] Ist $d|a$ und $d|b$, so $d|a-q\cdot b = r \Rightarrow d|b$ und $d|r$
+		\item[-] Ist $d|b$ und $d|r$, so $d|q\cdot b + r = a \Rightarrow d|a$ und $d|b$
+	\end{description}
+\end{description}
+Daher ergibt sich in 1.10\\
+ $ggT(a,b) = ggT(a_{0}, q_{1}) = ggT(a_{1}, q_{2}) = ggT(a_{2}, q_{3}) = ggT(a_{m-1}, q_{m}) \equiv a_{m}$\\
+/* $0 = a_{am+1}$, d.h. $a_{m-1}=q_{m} \cdot a_{m+0} =$ dem oben genannten $\equiv$ */
+%
+%
+%
+\subsection{Bemerkung:}
+Der Euklidische Algorithmus ist schnell.
+%
+%
+%
+\subsection{Erweiterter Euklidischer Algorithmus}
+Mit der Notation aus 1.10 berechnen wir zustäzlich für $0 \leq j \leq m$ ganze Zahlen $v_{i},v_{j}$ wie folgt:
+\begin{description}
+	\item[-] in Schritt 1$u_{0} = 1, v_{0}=0, u_{1}=0, v_{1}=1$
+	\item[-] in jedem Durchlauf der Schleife 2: \\
+			$u_{i+1} = v_{i-1} - q_{i} \cdot u_{i}$\\
+			$v_{i+1} = v_{i-1} - q_{i} \cdot v_{i}$
+\end{description}
+Dann gilt $\forall i$: $a_{i} = u_{i} \cdot a_{0} + v_{i} \cdot a_{i}$ \\
+Insbesondere ist am Ende $a_{m} = u_{m} \cdot a_{0} + v_{m} \cdot a_{1} = ggT (a_{0}, q_{1})$
+	\begin{description}
+		\item[\underline{Beweis:}]
+		\begin{description}
+			\item[] mit Induktion nach $i$:
+			\item[\underline{$i = 0$}] $a_{0} = 1 \cdot a_{0} + 0 \cdot a_{1}\  \checkmark $
+			\item[\underline{$i = 1$}] $a_{1} = 0 \cdot a_1{0} + 1 \cdot a_{1} \ \checkmark $
+			\item[\underline{$1\leq i \rightarrow i + 1$}] $a_{i-1} = a_{i-1} - q_{i} \cdot a_{i} =^{Ind}(u_{i-1} \cdot 
+						a_{0} + v_{i-1} \cdot a_{1}) - q_{i}(u_{i} \cdot a_{0} + v_{i} \cdot a_{1})$
+			\item[\qquad] \ \ \qquad $ = a_{0} \underbrace{(u_{i-1}-q_{i} \cdot u_{i})} + a_{1}\underbrace{(v_{i-1} 
+						- q_{i}\cdot v_{i})}$
+			\item[\qquad] \ \ \qquad \qquad \qquad $= u_{i}$ \qquad \qquad \qquad $= v_{i+1} \qquad \qquad 
+						\square$
+		\end{description}
+	\end{description}
+%
+%
+%
+\subsection{Folgerung:}
+Zu beliebigen $a,b \in \mathbb{Z} \diagdown\{0\}$ existieren $\underbrace{u,v \in \mathbb{Z}}$ mit $ggT(a,b) = u \cdot a+ v \cdot b$\\
+.  \qquad \qquad \qquad \qquad \qquad \ sogenannte Bezout-Koeffizienten
+%
+%
+%
+\subsection{Beispiel:} 
+$a_{0} = 245, \ a_{1} = 112$ \\
+\begin{center}
+	\begin{tabular} {cccc}
+		$a_{i}$ & $q_{i}$ & $u_{i}$ & $v_{i}$ \\ \hline
+		$245$   & \qquad  &    $1$    &     $0$ \\ 
+		$112$   &  $2$      &	    $0$    &     $1$ \\
+		$21$     &  $5$      &    $1$    &     $-2$ \\
+		$7$       &  $3$      &    $-5$   &     $11$ \\
+		$0$       &              &              &               \\
+	\end{tabular} 
+\end{center}
+\qquad\\
+\\
+$7 = ggT(a_{0},a_{1}) = (-5) \cdot 245 + 11 \cdot 112$

@@ -1,0 +1,113 @@
+\section{Modulo Rechnen}
+%
+%
+%
+\subsection{Motivation}
+Für ein festes $0 < n \in \mathbb{N}$ betrachten wir die Äquivalenzklassen zwischen Äquivalenzrelation $\equiv_{n}$. Es sei $\mathbb{Z}/n\mathbb{Z} = \{ [0], [1], \dotsc, [n-1]\}$. Wir wollen eine Addition und Multiplikation auf $\mathbb{Z}/n\mathbb{Z}$ einführen, so wie wir das von der Uhr (für $n=12$) gewöhnt sind. \\
+$[a]+[b]=[a+b]$ und $[a] \cdot [b] = [a \cdot b] \forall \ a,b \in \mathbb{Z}$\\
+Frage: Ist das möglich oder ergeben sich Widersprüche?
+%
+%
+%
+\subsection{Satz}
+Die in 2.1 definierte Addition $ \ + \ \mathbb{Z}/n\mathbb{Z}$ x $\mathbb{Z}/n\mathbb{Z} \rightarrow \mathbb{Z}/n\mathbb{Z}$\\
+und Multiplikation $ \ \cdot \ \mathbb{Z}/n\mathbb{Z}$ x $\mathbb{Z}/n\mathbb{Z} \rightarrow \mathbb{Z}/n\mathbb{Z}$ sind \underline{wohldefiniert} (widerspruchsfrei definiert), da das Ergebnis $[a] + [b]$ bzw. $[a] \cdot [b]$ nur von den Äquivalenzklassen $[a]$ und $[b]$ abhängt sind nicht von $a$ und $b$ selbst. 
+\begin{description}
+	\item[Beweis:] Seien $[a_{1}]  = [a_{2}], [b_{1}] = [b_{2}]$. Dann: $n|a_{2} - a_{1} \wedge n|b_{0} - b_{1}$\\
+			$\Rightarrow n| a_{2} - a_{1} + b_{2} - b_{1} = (a_{2} + b_{2}) - (a_{1} + b_{1})$\\
+			\quad \\
+			$ \Rightarrow \underbrace{[a_{2}]+[b_{2}]} = \underbrace{[a_{1}+b_{1}]}$\\
+			$. \quad [a_{2}] + [b_{2}] \quad [a_{1}] + [b_{2}]$
+	\item[Ebenso:] $n| a_{2}(b_{2} - b_{2}) + b_{1}(a_{2} - a_{1}) = a_{2}b_{2} - a_{1}b_{1}$\\
+				\quad\\
+				$\Rightarrow \underbrace{[a_{2}b_{2}]} = \quad \underbrace{[a_{1}b_{1}]}$\\
+				$. \quad [a_{2}][b_{2}] \quad [a_{1}][b_{1}]$
+\end{description}
+%
+%
+%
+\subsection{Beispiel:} In $ \mathbb{Z}/12\mathbb{Z}$ gilt: $[11]^{2} = [11^{2}] = [121] = [1]$\\
+				geschickter: $[11]^{2} = [-1]^{2} = [(-1)^{2}] = [1]$
+\begin{description}
+	\item[Beachte:] $[3] \cdot [4] = [3\cdot4] = [12] = [0]$ wobei $[3]$ und $[4]$ alleine gesehen jeweils $\neq 0$
+\end{description}
+Wenn klar ist, dass wir $\mathbb{Z}/n\mathbb{Z}$ rechnen für ein konstantes n, so lassen wir die Klammern i.d.R. weg.
+%
+%
+%
+\subsubsection{WDH:} $\mathbb{Z}/n\mathbb{Z} = \{ [0], [1], \dotsc, [n-1]\}$ \ $a \equiv_{n} \Leftrightarrow n|b-a$ für $a,b \in \mathbb{Z}$\\
+$[a] + [b] = [a+b]$\\
+$[a] \cdot [b] = [a \cdot b]$
+%
+%
+%
+\subsection{Bemerkung:}
+Da $ + $ und $ \cdot $ in $\mathbb{Z}/n\mathbb{Z}$  auf die entsprechenden Rechenoperationen in $\mathbb{Z}$ zurückgeführt werden, erbt $\mathbb{Z}/n\mathbb{Z}$ die aus $\mathbb{Z}$ bekannten Rechengesetze.\\
+\underline{Beachte jedoch:} Es kann elemente $x \neq u \neq y$ in $\mathbb{Z}/n\mathbb{Z}$ geben mit $x \cdot y = 0$. (etwa $[2] \cdot [3] = [0]$ in $\mathbb{Z}/6\mathbb{Z}$)\\
+Solche $x,y$ heißen \underline{Nullteiler}. 
+%
+%
+%
+\subsection{Definition:} 
+Wir nennen $x \in \mathbb{Z}/n\mathbb{Z}$ invertierbar, falls es in $y \in \mathbb{Z}/n\mathbb{Z}$ gibt mit $x \cdot y = 1$. Mit $(\mathbb{Z}/n\mathbb{Z})^{x}$ bezeichnen die Menge aller invertierbaren Elemente in $\mathbb{Z}/n\mathbb{Z}$. 
+%
+%
+%
+\subsection{Satz:}
+$n \geq 1$ ist \underline{fest}. Für $a \in \mathbb{Z}$ sind äquivalent:
+\begin{enumerate}
+	\item $[a]$ ist invertierbar in $\mathbb{Z}/n\mathbb{Z}$
+	\item $ggT(a,n) =1$
+	\begin{description}
+		\item[Beweis:] \qquad\\
+		\begin{description}
+			\item[$(1) \Rightarrow (2)$:] Sei $[a] \cdot [b] = [1]$, \qquad $n|ab - 1, n\cdot v = ab - 1$ für ein $v \in 
+								\mathbb{Z}$\\
+								.\quad $\Rightarrow 1 = ab - nv$\\
+								.\quad Ist $q$ ein Teiler von $a$ und $n$, so auch von $1$. \\
+								.\quad $\Rightarrow q = \pm 1, ggT(a,n) = 1$
+			\item[$(1) \Rightarrow (2)$:] Sei $1 = ggT(a,n) = a \cdot u + n \cdot v$ für gewisse $u,v \in 
+								\mathbb{Z}$\\
+								.\quad $\Rightarrow n|nv = 1-au \Rightarrow [1] = [a]\cdot[a] \qquad 
+									\square$
+		\end{description}
+	\end{description}
+\end{enumerate}
+%
+%
+%
+\subsection{Folgerung:}
+$(\mathbb{Z}/n\mathbb{Z})^{x}$ = $\{[a] | 0 < a < n$ und $ggT(a,n) = 1\}$. Ist $n=p$ eine Primzahl, so ist \underline{jedes} Element $\neq 0$ in $\mathbb{Z}/p\mathbb{Z}$ invertierbar.
+\begin{description}
+	\item[\underline{Beachte:}] \qquad
+	\item[] Für $n=a\cdot b$ mit $0 < a \leq b < n$ wird dies falsch.
+	\item[] $[a] \cdot [b] = [n] = [0]$
+	\item[] Wäre nun $[c] \cdot [a] = [1]$, so $ [c] \cdot [a] \cdot [b] = [1] \cdot [b] = [b]$ wobei $[c] \cdot [0] = [0]$
+\end{description}
+%
+%
+%
+\subsection{Definition:} 
+$\varphi(n) = |(\mathbb{Z}/n\mathbb{Z})^{x}| = $ Anzahl der $ a \in \{ 1, \dotsc, n-1\}$ mit $ggT(a,n) = 1$.\\
+Das definiert die \underline{eulersche $\varphi$ - Funktion} $\varphi : \mathbb{N}\diagdown\{0\} \rightarrow \mathbb{N}$
+%
+%
+%
+\subsection{Satz: (Euler)} 
+\begin{description}
+	\item[$n \geq 1$ \underline{fest}]. für jedes $x \in (\mathbb{Z}/n\mathbb{Z})^{x}$ gilt $x^{\varphi(n)} = 1$ \\ 
+	\item[Mit anderen Worten:] Für jedes zu n teilerfremde $a\in \mathbb{Z}$ gilt $a^{\varphi(n)} \equiv_{n} 1$.\\
+	\item[Insbesondere:] Ist $n = p$ Primzahl, so $x^{p} = x$ \ $\forall x \in \mathbb{Z}/n\mathbb{Z}$. (da $\varphi (p) 
+					= p-1$)
+\end{description}
+
+\subsubsection{Beweis:}
+Sei $(\mathbb{Z}/n\mathbb{Z})^{x} = \{x_{1}, x_{2}, \dotsc, x_{\varphi(n)}\}$\\
+Für festes $ z\in (\mathbb{Z}/n\mathbb{Z})^{x}$ definieren wir $\alpha_{z} : (\mathbb{Z}/n\mathbb{Z})^{x} \rightarrow (\mathbb{Z}/n\mathbb{Z})^{x}$ durch $\alpha_{z} (x) = x \cdot z$ \ $\forall x \in (\mathbb{Z}/n\mathbb{Z})^{x}$\\
+(da: $x \cdot z \cdot z^{-1} \cdot x^{-1} = x \cdot 1 \cdot x^{-1} = 1 \Rightarrow x z \in (\mathbb{Z}/n\mathbb{Z})^{x}$) Da z invertierbar ist $z \cdot y = 1 y \cdot z$ für ein $y \in (\mathbb{Z}/n\mathbb{Z})^{x}$ somit $\alpha_{z} \cdot  \alpha_{y} = id = \alpha_{y} \cdot \alpha_{z} \Rightarrow \alpha_{z}$ bijekktiv.\\
+$\Rightarrow \alpha_{z}$ vertauscht die Elmente $x_{1}, x_{2}, \dotsc, x_{\varphi(n)}$\\
+\qquad\\
+Somit: $ \underbrace{\prod \limits^{\varphi(n)}_{i = 1} x_{i}} = \prod \limits^{\varphi(n)}_{i = 1} \alpha_{2} (x_{i}) = \prod \limits^{\varphi(n)}_{i = 1} (x_{i} \cdot z) = \underbrace{(\prod \limits^{\varphi(n)}_{i = 1} x_{i})}\cdot z^{\varphi(n)}$\\
+.\ \quad \qquad $ =: d$ \qquad \qquad \qquad \qquad  \qquad \qquad \ \quad $= d$\\
+\qquad\\
+Multiplikation mit $d^{-1}$ liefert $1 = z^{\varphi(n)} \qquad \square$

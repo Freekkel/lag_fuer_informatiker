@@ -1,0 +1,73 @@
+\contentsline {chapter}{\numberline {I}Grundlagen}{1}
+\contentsline {section}{\numberline {I.1}Abbildungen}{1}
+\contentsline {subsection}{\numberline {I.1.1}Idee:}{1}
+\contentsline {subsection}{\numberline {I.1.2}Definition:}{1}
+\contentsline {subsection}{\numberline {I.1.3}Beispiel:}{2}
+\contentsline {subsection}{\numberline {I.1.4}Definition:}{2}
+\contentsline {subsection}{\numberline {I.1.5}Beispiel:}{3}
+\contentsline {subsection}{\numberline {I.1.6}Definition}{3}
+\contentsline {subsubsection}{Komposition von Abbildungen }{3}
+\contentsline {subsection}{\numberline {I.1.7}Beispiel}{4}
+\contentsline {subsection}{\numberline {I.1.8}Satz}{4}
+\contentsline {subsubsection}{Beweis:}{4}
+\contentsline {subsection}{\numberline {I.1.9}Definition:}{5}
+\contentsline {subsection}{\numberline {I.1.10}Definition:}{5}
+\contentsline {subsection}{\numberline {I.1.11}Definition:}{5}
+\contentsline {subsection}{\numberline {I.1.12}Beispiel:}{5}
+\contentsline {section}{\numberline {I.2}\IeC {\"A}quivalenzrelationen}{5}
+\contentsline {subsection}{\numberline {I.2.1}Bemerkung:}{5}
+\contentsline {subsection}{\numberline {I.2.2}Beispiel:}{6}
+\contentsline {subsection}{\numberline {I.2.3}Definition:}{6}
+\contentsline {subsection}{\numberline {I.2.4}Beispiel:}{6}
+\contentsline {subsubsection}{Erinnerung}{6}
+\contentsline {subsection}{\numberline {I.2.5}Definition:}{7}
+\contentsline {subsection}{\numberline {I.2.6}Hauptsatz:}{7}
+\contentsline {subsubsection}{Beweis:}{7}
+\contentsline {subsection}{\numberline {I.2.7}Bemerkung:}{8}
+\contentsline {chapter}{\numberline {II}Elementare Zahlentheorie}{9}
+\contentsline {section}{\numberline {II.1}Teilbarkeit}{9}
+\contentsline {subsection}{\numberline {II.1.1}Definition:}{9}
+\contentsline {subsection}{\numberline {II.1.2}Bemerkung:}{9}
+\contentsline {subsection}{\numberline {II.1.3}Satz:}{9}
+\contentsline {subsection}{\numberline {II.1.4}Beweis:}{9}
+\contentsline {subsection}{\numberline {II.1.5}Satz:}{10}
+\contentsline {subsection}{\numberline {II.1.6}Definition:}{10}
+\contentsline {subsubsection}{Satz:}{10}
+\contentsline {subsection}{\numberline {II.1.7}Fundamentalsatz der Zahlentheorie}{11}
+\contentsline {subsection}{\numberline {II.1.8}Definition:}{11}
+\contentsline {subsection}{\numberline {II.1.9}Bemerkung:}{11}
+\contentsline {subsection}{\numberline {II.1.10}\relax $\@@underline {\hbox {Euklidischer Algorithmus}}\mathsurround \z@ $\relax }{12}
+\contentsline {subsection}{\numberline {II.1.11} }{12}
+\contentsline {subsection}{\numberline {II.1.12}Satz}{12}
+\contentsline {subsection}{\numberline {II.1.13}Bemerkung:}{12}
+\contentsline {subsection}{\numberline {II.1.14}Erweiterter Euklidischer Algorithmus}{13}
+\contentsline {subsection}{\numberline {II.1.15}Folgerung:}{13}
+\contentsline {subsection}{\numberline {II.1.16}Beispiel:}{13}
+\contentsline {section}{\numberline {II.2}Modulo Rechnen}{14}
+\contentsline {subsection}{\numberline {II.2.1}Motivation}{14}
+\contentsline {subsection}{\numberline {II.2.2}Satz}{14}
+\contentsline {subsection}{\numberline {II.2.3}Beispiel:}{14}
+\contentsline {subsubsection}{WDH:}{14}
+\contentsline {subsection}{\numberline {II.2.4}Bemerkung:}{15}
+\contentsline {subsection}{\numberline {II.2.5}Definition:}{15}
+\contentsline {subsection}{\numberline {II.2.6}Satz:}{15}
+\contentsline {subsection}{\numberline {II.2.7}Folgerung:}{15}
+\contentsline {subsection}{\numberline {II.2.8}Definition:}{16}
+\contentsline {subsection}{\numberline {II.2.9}Satz: (Euler)}{16}
+\contentsline {subsubsection}{Beweis:}{16}
+\contentsline {section}{\numberline {II.3}Kryptographie}{16}
+\contentsline {subsection}{\numberline {II.3.1}Ziel:}{16}
+\contentsline {subsection}{\numberline {II.3.2}Problem:}{16}
+\contentsline {subsection}{\numberline {II.3.3}Erinnerung:}{17}
+\contentsline {subsection}{\numberline {II.3.4}Definition:}{17}
+\contentsline {subsection}{\numberline {II.3.5}Beispiel:}{17}
+\contentsline {subsection}{\numberline {II.3.6}Idee:}{17}
+\contentsline {subsection}{\numberline {II.3.7}Rasche Berechnung von $\mathbf {a^{k}}$ mod $\mathbf {n}$}{18}
+\contentsline {subsection}{\numberline {II.3.8}Definition:}{19}
+\contentsline {subsection}{\numberline {II.3.9}Definition:}{19}
+\contentsline {subsection}{\numberline {II.3.10}Vorteile:}{19}
+\contentsline {subsection}{\numberline {II.3.11}RSA-Verfahren}{19}
+\contentsline {subsection}{\numberline {II.3.12}elektronische Unterschrift}{20}
+\contentsline {section}{\numberline {II.4}Primzahlen}{20}
+\contentsline {subsection}{\numberline {II.4.1}Motivation}{20}
+\contentsline {subsection}{\numberline {II.4.2}\hskip 2em\relax }{20}
