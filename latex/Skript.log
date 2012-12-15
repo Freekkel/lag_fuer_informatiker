@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  14 DEC 2012 11:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  15 DEC 2012 13:11
 entering extended mode
 **Skript.tex
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.tex"
@@ -832,46 +832,39 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
 )
-\c@Ide=\count132
-\c@Def=\count133
-\c@Bsp=\count134
-\c@Auf=\count135
-\c@Sat=\count136
-\c@Bew=\count137
-
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
 
 ("C:\Programme\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    ... okay on input line 43.
 
 ("C:\Programme\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
+\scratchcounter=\count132
 \scratchdimen=\dimen147
 \scratchbox=\box41
-\nofMPsegments=\count139
-\nofMParguments=\count140
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count141
+\MPscratchCnt=\count135
 \MPscratchDim=\dimen148
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks34
 ) ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\front/title.tex"
 LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
@@ -953,10 +946,20 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.toc" [3])
 \tf@toc=\write3
 )
+Underfull \vbox (badness 7631) has occurred while \output is active []
+
+
 Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 
 [4]
+Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+
+
+[5] [6
+
+
+]
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_1.t
 ex"
 Kapitel I.
@@ -970,7 +973,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter1/ab
 bildungen.tex"
-<mainmatter/chapter1/pics/abbildunggenerell.png, id=32, 730.73pt x 395.4775pt>
+<mainmatter/chapter1/pics/abbildunggenerell.png, id=39, 730.73pt x 395.4775pt>
 File: mainmatter/chapter1/pics/abbildunggenerell.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/abbildunggenerell.png>
@@ -980,10 +983,8 @@ Package pdftex.def Info: mainmatter/chapter1/pics/abbildunggenerell.png used on
  [1
 
 
-
-
  <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/pi
-cs/abbildunggenerell.png>] <mainmatter/chapter1/pics/graph.png, id=47, 842.1462
+cs/abbildunggenerell.png>] <mainmatter/chapter1/pics/graph.png, id=53, 842.1462
 6pt x 568.1225pt>
 File: mainmatter/chapter1/pics/graph.png Graphic file (type png)
 
@@ -992,7 +993,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/graph.png used on input line
 39.
 (pdftex.def)             Requested size: 398.34027pt x 227.62639pt.
 
-<mainmatter/chapter1/pics/abbildungen.jpg, id=48, 603.25375pt x 442.65375pt>
+<mainmatter/chapter1/pics/abbildungen.jpg, id=54, 603.25375pt x 442.65375pt>
 File: mainmatter/chapter1/pics/abbildungen.jpg Graphic file (type jpg)
 
 <use mainmatter/chapter1/pics/abbildungen.jpg>
@@ -1010,7 +1011,7 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 [2 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
 pics/graph.png (PNG copy)>]
-<mainmatter/chapter1/pics/komposition.png, id=55, 446.66875pt x 601.24625pt>
+<mainmatter/chapter1/pics/komposition.png, id=61, 446.66875pt x 601.24625pt>
 File: mainmatter/chapter1/pics/komposition.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/komposition.png>
@@ -1028,7 +1029,7 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 [4 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
 pics/komposition.png>]
-<mainmatter/chapter1/pics/untermengen1.png, id=64, 155.6214pt x 99.4917pt>
+<mainmatter/chapter1/pics/untermengen1.png, id=70, 155.6214pt x 99.4917pt>
 File: mainmatter/chapter1/pics/untermengen1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/untermengen1.png>
@@ -1047,7 +1048,7 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 
 [6]
-<mainmatter/chapter1/pics/bijektivinvers.png, id=74, 249.93375pt x 167.62625pt>
+<mainmatter/chapter1/pics/bijektivinvers.png, id=81, 249.93375pt x 167.62625pt>
 File: mainmatter/chapter1/pics/bijektivinvers.png Graphic file (type png)
 <use mainmatter/chapter1/pics/bijektivinvers.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bijektivinvers.png used on in
@@ -1172,7 +1173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<mainmatter/chapter2/pics/graphkryp.png, id=113, 829.0975pt x 536.0025pt>
+<mainmatter/chapter2/pics/graphkryp.png, id=119, 829.0975pt x 536.0025pt>
 File: mainmatter/chapter2/pics/graphkryp.png Graphic file (type png)
 
 <use mainmatter/chapter2/pics/graphkryp.png>
@@ -1205,16 +1206,41 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 [19])
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/pr
 imzahlen.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
 Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 
-[20]))
+[20]
+Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+
+
+[21]
+Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+
+
+[22]))
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_3.t
-ex")
+ex"
 Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 
 
-[21] [22
+[23] [24
+
+
+]
+Kapitel III.
+
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/gr
+uppen.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+)) [25] [26
 
 
 ]
@@ -1222,24 +1248,24 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 es.tex" ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.lof")
 \tf@lof=\write4
 )
-[23
+[27
 
 
 ] ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.aux") ) 
 Here is how much of TeX's memory you used:
- 8963 strings out of 493921
- 123290 string characters out of 3148822
- 211100 words of memory out of 3000000
- 12020 multiletter control sequences out of 15000+200000
+ 8932 strings out of 493921
+ 123451 string characters out of 3148822
+ 211278 words of memory out of 3000000
+ 11984 multiletter control sequences out of 15000+200000
  36071 words of font info for 112 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,10n,47p,557b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Pr
-ogramme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Programme/MiKTeX 
-2.9/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/d
-vips/mnsymbol/MnSymbolB.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/M
-nSymbolE.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C
-:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiK
+ogramme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiKTeX 
+2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/d
+vips/mnsymbol/MnSymbolF.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/M
+nSymbolB.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C
+:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/Programme/MiK
 TeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Programme/MiKTeX 2.9/fonts
 /type1/public/mnsymbol/MnSymbol12.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publ
 ic/mnsymbol/MnSymbol6.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/mnsymbol/
@@ -1261,9 +1287,9 @@ s/type1/public/cm-super/sfsl1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publi
 c/cm-super/sfsx1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sf
 sx1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C
 :/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2488.pfb>
-Output written on Skript.pdf (29 pages, 743486 bytes).
+Output written on Skript.pdf (35 pages, 761467 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
