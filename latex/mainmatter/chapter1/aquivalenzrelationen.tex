@@ -1,7 +1,7 @@
 \section{Äquivalenzrelationen}
 
 \subsection{Bemerkung:}
-	Es sei $f: A \rightarrow B$ eine Abbildung. Für jedes feste $b \in B$ nennen wir $f^{-}(b) = \{ a \in A | f(a) = b\}$ die Faster von $b$ unter $f$. Offenbar sind je zwei Fasern disjunkt: $b_{1} \neq b_{2} \Longrightarrow f^{-} (b_{1}) \cap j(b_{2}) = \emptyset$ ferner ist $ A =  	\bigcup_{b \in B} j(b)$. Wir sprechen von einer disjunkten Zerlegung bzw. Partition von $A$. /*  Faser $\mathrel{\widehat{=}}$ volles Urbild; disjunkt = Schnitt ist leer. */ 
+	Es sei $f: A \rightarrow B$ eine Abbildung. Für jedes feste $b \in B$ nennen wir $f^{-}(b) = \{ a \in A | f(a) = b\}$ die Faster von $b$ unter $f$. Offenbar sind je zwei Fasern disjunkt: $b_{1} \neq b_{2} \Longrightarrow f^{-} (b_{1}) \cap j(b_{2}) = \emptyset$ ferner ist $ A =  	\mathop{\bigcup}\limits_{b \in B} j(b)$. Wir sprechen von einer disjunkten Zerlegung bzw. Partition von $A$. /*  Faser $\mathrel{\widehat{=}}$ volles Urbild; disjunkt = Schnitt ist leer. */ 
 
 \subsection{Beispiel:}
 	$ A =$ Menge aller Autos. \\
@@ -58,7 +58,7 @@ Es sei $M$ eine feste Menge. Dann gilt:
 \end{description}
 Genauer:
 \begin{description}
-	\item[(a)] Ist $M = \dot{\bigcup}_{i \in I}$ $M_{i}$ ($\dot{\bigcup}$  = disjunkte Vereinigung) eine Partition von $M$, so ist eine Äquivalenzrelation $\sim$ auf $M$ gegeben durch: $a \sim b \Leftrightarrow$ es gibt ein $i \in I$ mit $a,b \in M_{i}$ Die Äquivalenzklassen zu $\sim$ sind genau die Mengen $M_{i} (i \in I)$
+	\item[(a)] Ist $M = \mathop{\dot{\bigcup}}\limits_{i \in I}$ $M_{i}$ ($\dot{\bigcup}$  = disjunkte Vereinigung) eine Partition von $M$, so ist eine Äquivalenzrelation $\sim$ auf $M$ gegeben durch: $a \sim b \Leftrightarrow$ es gibt ein $i \in I$ mit $a,b \in M_{i}$ Die Äquivalenzklassen zu $\sim$ sind genau die Mengen $M_{i} (i \in I)$
 	\item[(b)] Ist $\sim$ eine Äquivalenzrelation auf $M$, so bilden die 'quivalenzklassen zu $\sim$ eine Partition von M.
 	\item[(c)] Die durch $(a)$ und $(b)$ gegebenen Abbildungen sind bijektiv und gegenseitig invers. 
 		\begin{figure} [H]
@@ -78,7 +78,7 @@ Genauer:
 		\item[\underline{symmetrisch:}] Seien $a,b \in M$ mit $a \sim b \Rightarrow \exists i \in I: a,b \in M_{i} \Rightarrow b \sim a$.
 		\item[\underline{transitiv:}] Seien $a,b,c \in M$ mit $a \sim b$ und $b \sim c \Rightarrow$ es gibt $i \in I$ mit 
 			$a,b \in M_{i}$ und es gibt $j\in J$ mit $b,c \in M_{j}$ Da $b \in M_{i} \wedge M_{j}$ und die Partition $M 
-			= \dot{\bigcup}_{i \in I} M_{i}$ disjunkt ist, ist $i = j \Rightarrow a,c \in M_{i} = M_{j}$ und somit $a \sim 
+			= \mathop{\dot{\bigcup}}\limits_{i \in I} M_{i}$ disjunkt ist, ist $i = j \Rightarrow a,c \in M_{i} = M_{j}$ und somit $a \sim 
 			c$. Nach Definition von $\sim$ ist $[a] = M_{i}$ für das einzige $i \in I$ mit $a \in M_{i}$
 	\end{description}
 	\item[(b)] Jeder $a \in M$ liegt in einer Äquivalenzklasse, z.B. in $[a]$. Also genügt es z.z.: Verschiedene 	
@@ -95,5 +95,5 @@ Genauer:
 %
 \subsection{Bemerkung:}
 Gemäß 2.1 liefern die nicht leeren Fasern einer Abbildung $f: A \rightarrow B$ eine Partition von $A$, also eine Äquivalenzrelation auf $A$.\\
-Umgekehrt kann zu jeder Partition $A =  \dot{\bigcup}_{i \in I} A_{i}$ von $A$ eine Abbildung $g: A \rightarrow I$ definiert werden via $g(a) = i$ falls $a \in A_{i}$\\
+Umgekehrt kann zu jeder Partition $A =  \mathop{\dot{\bigcup}}\limits_{i \in I} A_{i}$ von $A$ eine Abbildung $g: A \rightarrow I$ definiert werden via $g(a) = i$ falls $a \in A_{i}$\\
 Dann $A_{i} = g(i)$ und die Partition der $A_{i}$ ist die Faser-Partition von g.

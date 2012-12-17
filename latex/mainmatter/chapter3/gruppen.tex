@@ -14,3 +14,127 @@ Eine Gruppe $G$ sei eine Menge mit einer Verknüpfung $* \ G \times G \rightarro
 	\item[Beachte:] (1) und (2) sind Eigenschaften für einen Monoid
 \end{description}
 $G$ heiße zusätzlich kommutativ, falls gilt: $a*b=b*a \ \forall a,b \in G$
+%
+%
+%
+\subsection{Beispiel:}
+\begin{description}
+	\item[(a)] $\mathbb{N}$ mit + ist Monoid, aber keine Gruppe\\
+			$\mathbb{Z}, \mathbb{Q},  \mathbb{R}$ bzgl. + sind Gruppen.\\
+			$\mathbb{Z}/n\mathbb{Z}$ bzgl. + ist eine Gruppe (vererbt von $\mathbb{Z}$)\\
+			$\mathbb{Z} \diagdown \{0\}$ bzgl. $\cdot$ ist Monoid\\
+			$(\mathbb{Z}/n\mathbb{Z}) \diagdown \{0\}$ bzgl. $\cdot$ ist Gruppe $\Leftrightarrow n$ ist eine Primzahl\\
+			Diese Regeln sind Kommutativ
+	\item[(b)] Sei $\Omega$ eine Menge. Dann ist Abb $(\Omega, \Omega) = \{f|f:\Omega \rightarrow \Omega\}$ bzgl. 
+			Komposition von Abbildungen immer im Monoid. Die Mege Sym$(\Omega) = \{f \in$ Abb. $(\Omega, \Omega)|
+			f$ bijektiv$\}$ ist eine Gruppe bzgl. Komposition. "`symmetiche Gruppe"' Sym ($\Omega$) ist nicht 
+			kommutativ, sofern $|\Omega| \geq 3$
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=4cm, height=2cm]{mainmatter/chapter3/pics/fadendia1-3.png}
+		\caption{Fadendiagramm mit der Funktion 1 auf 3} 
+	\end{figure}
+	\begin{figure} [H]		
+		\centering
+		\includegraphics[width=4cm, height=2cm]{mainmatter/chapter3/pics/fadendia1-2.png}
+		\caption{Fadendiagramm mit der Funktion 1 auf 2} 
+	\end{figure}			
+			In folgenden lassen wir $*$ weg.
+\end{description}
+%
+%
+%
+\subsection{Lemma:}
+Sei $G$ eine Gruppe und $a,b,c \in G$:
+\begin{description}
+	\item[(a)] $(ab)^{-1} = b^{-1}a^{-1}$ und $(a^{-1})^{-1} = a$, $e^{-1}=e$
+	\item[(b)] Setzt man $a^{0}=e$, $a^{n}=a(a^{n-1})$ und $a^{-n} = (a^{-1})^{n}$ \ $\forall n \geq 1$ so gelten die 
+			üblichen Potenzgesetze.
+\end{description}
+Kurzregeln:
+\begin{description}
+	\item[-] aus $ab=ac$ folgt stets $b=c$ (Multiplikation mit $a^{-1}$ von links)
+	\item[-] aus $ab=cb$ folgt stets $a=c$ (Multiplikation mit $b^{-1}$ von rechts)
+\end{description}
+%
+%
+%
+\subsection{Definition:}
+Eine Untergruppe $U$ der Gruppe $G$ sei eine Teilmenge von $G$, die bzgl. der Verknüpfung (Multiplikation) in $U$ selbst eine Gruppe bildet. d.h. es musst gelten:
+\begin{description}
+	\item[-] $e \in U$
+	\item[-] $U$ ist gegen Multiplikation abgeschlossen und gegen Inversion. (Dies ist gewähtleistet, falls für alle $a,b \in U$ 
+			gilt $ab^{-1} \in U$
+\end{description}
+Schreibe: $U \leq G$
+%
+%
+%
+\subsection{Beispiel:}
+\begin{description}
+	\item[(a)] $\mathbb{Z} \leq \mathbb{Q}$ bzgl. +
+	\item[(b)] $\{a^{2}|a \in (\mathbb{Z}/n\mathbb{Z})^{x}\} \leq (\mathbb{Z}/n\mathbb{Z})^{x}$ (bzgl. $\cdot$)
+			da $1^{2} = 1$, $a^{2}b^{2} = aabb$, $abab = (ab)^{2}$,\\
+			 $(a^{2})^{-1} = (a^{-1})^{2}$
+\end{description}
+%
+%
+%
+\subsection{Satz von Lagrange}
+Sei $G$ endliche Gruppe und $U \leq G$. Dann $|U|$ \Large{|} \normalsize{$|G|$}.
+\begin{description}
+	\item[Beweis:] \quad\\
+	\item[] Die Rechtsmultiplikation mit festen $g \in G$ ist eine bijektive Abbildung $G \rightarrow G$ /* $x \rightarrow x 
+		\cdot g$ (die Inverse ist Rechtsmultiplikativ mit $g^{-1}$)
+	\item[] Daher gilt $|U| = |U \cdot g|$, $U \cdot g = \{u \cdot g|u \in U\}$ für jedes (feste) $g \in G$
+\end{description}
+\quad\\
+$\mathbb{Z} = \mathop{\dot{\bigcup}}\limits^{n-1}_{k = 0} \ (k+n \ \mathbb{Z})$\\
+\quad\\
+$G = \mathop{\bigcup}\limits_{g \in G} \ U \cdot g$,  da $g = e \cdot g \in U \cdot g$\\
+\quad\\
+Zeige: Die $Ug$ ($g$ geeignet) bilden eine Partition von G. (dann:\\
+ $|G| = | \mathop{\bigcup}\limits_{g \textrm{ geeignet}} \ Ug| = \sum\limits_{g\textrm{ geeignet}}|Ug| = \sum\limits_{g\textrm{ geeignet}} |U| = m \cdot |U|$ wo $m =$ Anzahl der $Ug$ ($g$ geeignet))\\
+\quad\\
+Dazu sei $x \in Ug_{1} \cap Ug_{2}$ Zeige: $Ug_{1} = Ug_{2}$\\
+Dann $u_{1}g_{1} \cdot x = u_{2}g_{2}$ mit $u_{1}, u_{2} \in U$ geeignet
+\begin{equation*}
+	\Rightarrow U \cdot u_{1}g_{1} = U \cdot u_{2}g_{2}
+\end{equation*}
+\begin{equation*}
+	\Leftrightarrow Ug_{1} = Ug_{2}
+\end{equation*}
+%
+%
+%
+\subsection{Folgerung:}
+In jeder endlichen Gruppe $G$ gilt: $g^{|G|} = e \ \forall g \in G$ (vgl. Satz von Euler (II.2.6), wo $(\mathbb{Z}/n\mathbb{Z})^{x} = \varphi(n)$ war)
+\begin{description}
+	\item[Beweis:] \quad\\
+			Betrachte $U=\{g^{z}|z \in \mathbb{Z}\} \leq G$ für festes $g$ aus $G$. \\
+			Zeige: $g^{|U|} = e$ (dann $g^{|G|}=(g^{|U|})^{m}=e$ für $|G| = |U| \cdot m$ gemäß 1.6)\\
+			Kopiere hierzu den Beweis des Satzes von Euler und verwende, dass $U$ kommutativ ist.
+\end{description}
+%
+%
+%
+\subsection{Definition:}
+Ein Gruppenhomomorphismus $\varphi: G \rightarrow H$ (wobei $G,H$ Gruppen sind) Sei eine Abbildung mit $\varphi(a \cdot b) = \varphi (a) \cdot \varphi (b) \ \forall a,b \in G$
+%
+%
+%
+\subsection{In der Notation von 1.8 gilt}
+\begin{description}
+	\item[(a)] $\varphi(e)=e \rightarrow$ von $h$ und $\varphi(g^{-1}) = (\varphi(g))^{-1} \ \forall g \in G$
+	\item[(b)] Bild $q \leq H$
+	\item[Beweis:] \quad
+	\begin{description}
+		\item[(a):] $e \cdot \varphi(e) = \varphi(e) = \ '\varphi(e \cdot e) = \varphi(e) \cdot \varphi(e) 
+				\mathop{\Rightarrow}\limits^{\text{kürzen}} e = \varphi(e)$\\
+				$e = \varphi(e) = \varphi(g \cdot g^{-1}) = \varphi(g)\cdot\varphi(g^{-1})$\\
+				ebenso $= \varphi(g^{-1})\varphi(g)$\\
+				$\Rightarrow \varphi(g^{-1}) = (\varphi(g))^{-1}$
+		\item[(b):] $e = \varphi(e) \in$ Bild $\varphi$ und $\varphi(a) \cdot \varphi(b)^{-1} = \varphi(a) \cdot 
+				\varphi(b^{-1}) = \ '\varphi(ab^{-1}) \in$ Bild $\varphi$
+	\end{description}
+\end{description}
