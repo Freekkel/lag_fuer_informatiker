@@ -27,39 +27,19 @@
 \newrgbcolor{pgrey}{0.6 0.6 0.6}
 
 
-% Abkürzungen, welche verwendet werden könnten, aber bisher leider nicht verwendet werden.
-%\newtheorem{Ide}{Idee} 
-%\newtheorem{Def}{Definition}
-%\newtheorem{Bsp}{Beispiel} 
-%\newtheorem{Auf}{Aufgabe} 
-%\newtheorem{Sat}{Satz}
-%\newtheorem{Bew}{Beweis}
-
-% Tabellendefinition wird zur Zeit leider nicht verwendet.
-%\newcolumntype{N}{>{\small}l} 
-%\newcolumntype{V}[1]{>{\small\raggedright}p{#1}}
-
-
 %Dokumentenanfang mit diversen input von mehreren Einzeldokumenten.
 \begin{document}
-
-\input{front/title} 
-
-
-\frontmatter 
-	\input{frontmatter/preface}
-	\input{frontmatter/table_of_contents} 
-
- 
-\mainmatter 
-	\input{mainmatter/chapter_1}
-	\input{mainmatter/chapter_2} 
-	\input{mainmatter/chapter_3} 
-
- 
-\backmatter 
-	\input{backmatter/listoffigures} 
-
+	\input{front/title} 
 	
-
+	\frontmatter 
+		\input{frontmatter/preface}
+		\input{frontmatter/table_of_contents} 
+	 
+	\mainmatter 
+		\input{mainmatter/chapter_1}
+		\input{mainmatter/chapter_2} 
+		\input{mainmatter/chapter_3} 
+	 
+	\backmatter 
+		\input{backmatter/listoffigures} 
 \end {document}

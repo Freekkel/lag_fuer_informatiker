@@ -1,0 +1,177 @@
+\section{Polynomringe}
+Stets sei $R$ ein kommutativer Ring mit Eins.
+%
+%
+%
+\subsection{Definition:}
+Ein Polynom $f$ (keine Funktion!) aus $R$ sein ein \underline{formaler} Ausdruch der Form:\\
+$f=c_{0}+c_{1}xc_{2}x^{2}+\dotsc+c_{n}x^{n}$ mit $n \in \mathbb{N}, \ c_{0}, \dotsc, c_{n} \in R$\\
+Dabei sei $x$ ein Symbol, die sogenannte Variable, die bei Bedarf jeden festen Wert aus $R$ annehmen kann.\\
+Wir rechnen daher mit Polynomen so, als wäre $x$ ein Element aus $R4$:\\
+Ist $g=d_{0}+d_{1}x+\dotsc+d_{m}x^{m}$ ein weiteres Polynom mit $d_{h} \in R$, so sei \\
+$f + g:=(c_{0}+d_{0})x + (c_{2}d_{0}+c_{1}d_{1}c_{0}d_{2}x^{2}+\dotsc)$\\
+$\Rightarrow \sum\limits^{n+m}_{l=0}(\sum\limits_{j+k=l}c_{j}d_{k})x^{l}$
+(hierbei sei $c_{j}=0$ für $j > n$  \quad $d_{h} = 0$ für $k > n$) Es bezeichne $R[x]$ ein kommutativer Ring mit Eins mit Koeffizienten aus $R$.
+%
+%
+%
+\subsection{Satz:}
+Bzgl. der in III.3.1 definierten Addition und Multiplikation ist $R[x]$ ein kommutativer Ring mit Eins.\\
+Beweis:
+\begin{description}
+	\item[] Da sich $x$ wie ein Element aus $R$ verhält.
+\end{description}
+%
+%
+%
+\subsection{Warnung:}
+In $R[x]$ gilt das sogenannte Prinzip des Koeffizientenvergleichs, d.h.
+\begin{equation*}
+\sum\limits^{n}_{k=0} c_{k} x^{k}= \sum\limits^{b}_{k=0} d_{k} x^{k} \Leftrightarrow c_{k} = d_{k} \ \forall k
+\end{equation*}
+zu jedem $f = \sum\limits^{n}_{k=0} c_{k} x^{k} \in R[x]$ gibt es eine zugehörige Abbildung$\tilde{f}:R \rightarrow R \quad \tilde{f}(a) = \sum\limits^{n}_{k=0} c{k} a^{k} \ \forall a \in R$\\
+$\tilde{f}$ verhält sich anders wie $f$, denn die $\tilde{f}$ efüllen im allgemeinen \underline{nicht} das Prinzip der Koeffizientenvergleichs.\\
+Beweis:
+\begin{description}
+	\item $R = \mathbb{Z}/p\mathbb{Z}$ wo $p$ Primzahl. Es gilt $a^{p}=a \ \forall a \in R$ aber $x^{p} \neq x$
+\end{description}
+(Die Abbildung ist gleich bei unterschiedlichen Polynomen.)
+%
+%
+%
+\subsection{Definition:}
+Sei $0 \neq f = \sum\limits^{n}_{k=0} c_{k} x^{k}$ mit $c_{n}\ neq 0$. Dann sei grad $f = n$ Formel sei grad $0 = -\infty$
+%
+%
+%
+\subsection{Satz:}
+\begin{enumerate}[label={(\alph*)}]
+	\item grad $(f-g) \leq $ max$($grad $f, $ grad $g)$\\
+		grad $(f \cdot g) \leq ($grad $f) + ($grad $g) \ \forall f,g \in R[x]$
+	\item Ist $R$ nullteilerfrei, so gilt stets grad$(fg) = ($grad $f + $ grad $g)$ "`Gradformel"'
+\end{enumerate}
+$R[x]$wo $R$ kommutativ mit Eins.\\
+Jeder $f \in R[x]$ hat ein Grad. \\
+Ist $R \underbrace{\text{nullteilerfrei}}$, so: \qquad grad$(fg)=$ grad$f +$ grad$g$\\
+In diesem Fall ist $R[x]$ selbst nullteilerfrei.\\
+Ferner ist $(R[x])^{x} \mathop{ = }\limits_{\mathop{\text{direkt aus Gradformel}}\limits^{\uparrow}} R^{x}$ (invertierbare $\mathop{\underbrace{\text{"`konstante"'}}}\limits_{=\text{ Grad }0}$\\
+In folgenden betrachten wir nur ncoh $K[x]$ wobei $K$ ein Körper ist. 
+%
+%
+%
+\subsection{Division mit Rest:}
+Division mit Rest in $K[x]$:\\
+Es seien $f,g \in K[x]$ mit $g \neq 0$. Dann existieren \underline{eindeutig} bestimmte $g,r \in K[x]$ mit $f=q \cdot g + r$ wo grad $r$ < grad$g$\\
+Beweis\\
+\begin{description}
+	\item[Eindeutigkeit:] Sind $ f=q_{1}g+r_{1} = q_{2}g+r_{2}$ mit grad $r_{i} <$ grad$g$, so $(q_{1}-q_{2})g=r_{2}-
+				r_{1}$ mit grad$\mathop{\underbrace{r_{2}-r_{1}}}\limits_{\text{grad}g+\text{grad}(q_{1}-
+				q_{2})} \lneqq $ grad$g$\\
+				$\Rightarrow$ grad$q_{1}-q_{2} = -\infty$ und $q_{1} = q_{2}, r_{2}=r_{1}$
+	\item[Existenz:] Ist grad$f <$ grad$g$, so wähle $q=0$ und $r = f \leadsto $ fertig. Sei nun 
+				$\mathop{\underbrace{\text{grad}}}\limits_{=n}f \geq$ grad$g=m$ Ferner seien $a$ und $b$ die 
+				Höchstkoeffizienten von $f$ bzw. $g$, also 
+				\begin{equation*}
+					f= a \cdot x^{n} + \dotsc, g= b \cdot x^{m} + \dotsc
+				\end{equation*}
+				Induktion nach $n: \ n=0 \Rightarrow m=0$ und $f = \mathop{\underbrace{(ab^{-1})}}\limits_{q} 
+				\cdot g + \mathop{\underbrace{0}}\limits_{r} \quad \checkmark$
+	\item[$n>0$] Betrachte $h=f-(ab^{-1})x^{n-m}-g\Rightarrow$ grad$h<n$. Induktion leifert $h = \tilde{q}g+r$ mit 
+				grad$r <$ grad$g$\\
+				$\Rightarrow f = h+(ab^{-1})x^{n-m} \ g=\mathop{\underbrace{((ab^{-1})x^{n-
+				m}+\tilde{q})}}\limits^{=q}g+r$ mit grad$r <$ grad$g$.
+\end{description}
+%
+%
+%
+\subsection{Bemerkung:}
+$K[x]$ verhält sich also ähnlich wie $\mathbb{Z}$. Beide sind kommutativ, nullteilerfreie Ringe mit eins, in denen eine Division mit Rest möglich ist. (wobei der Grad der Polynome in $K[x]$ die Rolle der Absolutbetrages in $\mathbb{Z}$ übernimmt). So ein Rechenbereich heißt \underline{EUKLIDischer Ring}
+%
+%
+%
+\subsection{Satz:}
+In einem EUKLIDischen Ring $s$ haben die Ideale genau die Form $a \cdot S = \{a \cdot s|s \in S\}$ (für jedes feste $a\in S$)(Insbesondere: Die Ideale in $\mathbb{Z}$ sind genau die $n\mathbb{Z}$($n\in\mathbb{N}$))
+\begin{description}
+	\item[Beweis:] Klar: $a \cdot S$ Idea (wegen Distributivgesetz) Sei $I$ nun irgendein Ideal in $S$. Ist $I=\{0\}$, so 
+				$I=0 \cdot S \leadsto$ fertig.\\
+				Sei nun $I \neq \{0\}$. Wähle $a \in I \diagdown\{0\}$ kleinstmöglich bzgl. der Funktion, die die 
+				Größe der Elemente in $S$ heißt.\\
+				Magnetische Eigenschaft $a \cdot S \subseteq I$
+				\begin{description}
+					\item[Zeige:] $I \subseteq a \cdot S$\\
+							Sei dazu $b \in I$ beliebig. Division mti Rest: $b=q \cdot a+r$ wo $r$ kleiner als 
+							$a$ (sogar echt keliner)\\
+							Dann: $r=b-aq \in I$\\
+							Nach Wahl bon $a$ muss $r=0$ sein.\\
+							Somit: $f = a \cdot q \in a \cdot S$
+				\end{description}
+\end{description}
+%
+%
+%
+\subsection{Bemerkung:}
+Wir nennen ein Polynom $f \in K[x]$ \underline{normiert}, falls sein Höchstkoeffizient = 1 ist. Ist $ I \neq \{0\}$ ein Ideal in $K[x]$, so existiert \underline{genau ein} normiertes $f \in K[x]$ mit $f \cdot K[x] = I$. 
+\begin{description}
+	\item[Beweis:] \quad
+	\begin{description}
+		\item[Existenz:] nach III.3.8 ist $I=f \cdot K[x]$ für ein $f \in K[x]$\\
+					Ersetze $f$ durch $a^{-1}f$ wo $a=$ Höchstkoeffizient von $f$.
+		\item[Eindeutigkeit:] Sei $f_{1} \cdot K[x]=I=f_{1} \cdot K[x]$ wo $f_{1}, f_{2}$ normiert\\
+					$\Rightarrow f_{1}-f_{2} \in I$ mit echt kleineren Grad als $f_{1}$ und $f_{2}$. \\
+					Insbesondere: $f_{1}-f_{2}-f_{1} \cdot q$ und $\mathop{\underbrace{\text{grad}(f_{1}-
+					f_{2})}}\limits_{<\text{ grad}f_{1}} =$ grad$f_{1} +$ grad$q$\\
+					$\Rightarrow$ grad$q = -\infty$, $q=0$, $f_{1}-f_{2}=0$
+	\end{description}
+\end{description}
+Wir können nun alle unsere Argumente aus der elementaren Zahlentheorie von $\mathbb{Z}$ auf $K[x]$ übertragen und erhalten analoge Sätze.\\
+Dabei:
+\begin{description}
+	\item[] natürliche Zahlen $\leftrightarrow$ normierte Polynome
+	\item[] Vorzeichen $\pm 1 \leftrightarrow a \in K^{x}$
+\end{description}
+Sind $f,g \in K[x]$, so sagen wir $g$ \underline{teilt} $f$(und schreiben $g|f$) falls $f=g \cdot h$ für ein $h \in K[x]$. Die Partition von $K[x]$ in die Nebenklassen.\\
+$r+g \ K[x]$ (wo grad$r <$ grad$g$) besteht aus denÄquivalenzklassen der Äquivalenzrelation $\equiv_{g}$ wo
+\begin{equation*}
+	f_{1} \equiv_{g} f_{2} \Leftrightarrow g|f_{2}-f_{1} \Leftrightarrow f_{2}-f_{1} \in g \cdot K[x]
+\end{equation*}
+An die Stelle der Primzahlen aus $\mathbb{Z}$ treten die sogenannte normierten irreduziblen Polynome:
+%
+%
+%
+\subsection{Definition:}
+Ein Polynom $f \in K[x] \diagdown K$ heiße \underline{irreduzibel} in $K[x]$, wenn es keine echte Zerlegung von $f$ in $K[x]$ gibt, d.h. aus $f=g \cdot h$ mit $g,h \in K[x]$ folgt $g \in K^{x}$ oder $h \in K^{x}$
+%
+%
+%
+\subsection{Satz:}Jedes Polynom $f \in K[x] \diagdown \{0\}$ hat eine bis auf Reihenfolge der Faktoren eindeutige erlegung der Form $f=a \cdot p_{1},p_{2}$. $p_{2}$ wo $a \in K^{x}$, $p_{1}, \dotsc, p_{s} \in K[x]$ normiert und irreduzibel
+\begin{description} 
+	\item[Beweis:] kopiere den Beweis des Hauptsatzes der Zahlentheorie.
+\end{description}
+%
+%
+%
+\subsection{Folgerung:}
+Es gibt unendlich viele normierte, irreduzible Polynome in $K[x]$ (wie II.1.6(b)).
+%
+%
+%
+\subsection{Beispiel:}
+Irreduzible Polynomen in $(\mathbb{Z}/2\mathbb{Z})[x]$:
+\begin{description}
+	\item[Grad 1:] $x, x+1$ sind irreduzibel wegen der Gradformel
+	\item[Grad 2:] $x^{2} = x \cdot x,\ x^{2}+x = x(x+1), \ x^{2}+1=(x+1)^{2} \Rightarrow$ Reduzibel\\
+				$x^{2}+x+1 \Rightarrow$ Irreduzibel.
+	\item[Grad 3:] $x^{3}= x \cdot x^{2}, \ x^{3}+x^{2} = x^{2}(x+1), \ x^{3}+x=x(x+1)^{2}, \ x^{3}+x^{2}+x+1 
+				= (x+1)^{3}, \ x^{3}+x^{2}+x=x(x^{2}+x+1), \ x^{3}+1=(x+1)(x^{2}+x+1) \Rightarrow$ 
+				Reduzibel\\
+				$x^{3} +x +1, \ x^{3}+x^{2}+1 \Rightarrow$ Irreduzibel
+\end{description}
+%
+%
+%
+\subsection{Bemerkung}
+Es seien $f,g \in K[x] \diagdown \{0\}$ und $f =a \cdot  p_{1}^{\alpha_{1}}, \dotsc, p_{s}^{\alpha_{s}}, \ g = b \cdot p_{1}^{\beta_{1}}, \dotsc, p_{s}^{\beta_{s}}$ wo $\alpha_{i}, \beta_{i} \geq 0$ und wo $p_{i}$ normiert und irreduzibel in $K[x]$\\
+$ggT(f,g)=p_{1}^{\gamma_{1}}, \dotsc, p_{s}^{\gamma_{s}}$ wo $\gamma_{i} = min \{\alpha_{i}, \beta_{i}\}$\\
+$kgV(f,g)=p_{1}^{\delta_{1}},\dotsc, p_{s}^{\delta_{s}}$ wo $\delta_{i} = max \{\alpha_{i}, \beta_{i}\}$\\
+Dann gilt: $f \cdot g = a \cdot b \cdot ggT(f,g) \cdot kgV(f,g)$\\
+Ferner kann $ggT(f,g)$ wie bei den ganzen Zahlen mit dem EUKLID Algorithmus berechnet werden und der erweiterte EUKLID Algorithmus liefert BEZOUT-Koeffizienten $u,v \in K[x]$ mit $ggT(f,g) = u \cdot f + v \cdot g$

@@ -1,0 +1,88 @@
+\section{Ringe}
+%
+%
+%
+\subsection{Definition:}
+Ein Ring $R$ sei eine Menge mit Verknüpfungen $+$ und $\cdot$, derart dass gilt:
+\begin{enumerate}
+	\item $R$ ist eine kommutative Gruppe bzgl. $+$ 
+	\begin{description}
+		\item[] (neutrales Element: 0)
+		\item[] (Inverses zu $a \in R$ bzgl. $+$.:$-a$
+	\end{description}
+	\item $\cdot$ ist assoziativ: \ $a(bc)=(ab)c \ \forall a,b,c \in R$
+	\item Distributivgesetze:
+	\begin{description}
+		\item[] $a(b+c) = ab + ac \ \forall a,b,c \in R$
+		\item[] $(a+b)c = ac + bc \ \forall a,b,c \in R$
+	\end{description}
+\end{enumerate}
+Gibt es ein neutrales Element bzgl. $\cdot$ in $R$, so heißt $R$ \underline{Ring mit Eins}.\\
+Ist $\cdot$ kommutativ, so heißt $R$ ein kommutativer Ring. \\
+Ist $R\diagdown\{0\}$ bzgl. $\cdot$ eeine kommutative Gruppe, so nennt man $R$ einen Körper.
+%
+%
+%
+\subsection{Beispiel:}
+\begin{enumerate}[label={(\alph*)}]
+	\item $\mathbb{Z}$ und $\mathbb{Z}/n\mathbb{Z}$ sind kommutative Ringe mit Eins.\\
+		$\mathbb{Z}/n\mathbb{Z}$ ist Körper $\Leftrightarrow n$ Primzahl (II.2.7)\\
+		$\mathbb{Q}$ und $\mathbb{R}$ sind Körper.
+	\item Die Menge aller $(n \times n)$-Matrizen mit Einträge aus einem Ring ist ein nicht kommutativer Ring (sofern $n \geq 
+		2$ und $R \neq \{0\}$)
+	\item In jedem Ring mit Eins bilden die invertierbaren Elemente eine Gruppe.
+  \end{enumerate} 
+%
+%
+%
+\subsection{Lemma:}
+\begin{enumerate}[label={(\alph*)}]
+	\item Ist $R$ ein Ring, so gilt stest\\
+		$a \cdot 0 = 0 = 0 \cdot a$ und \\
+		$(-a) \cdot b = -(ab) = a(-b) \ \forall a,b \in R$
+	\item Jeder Körper ist nullteilerfrei, d.h., aus $a \cdot b =0 \Rightarrow a=0 oder b=0.$
+  \end{enumerate} 
+Beweis:
+\begin{enumerate}[label={(\alph*)}]
+	\item $a \cdot 0 + a \cdot 0 = a(0+0) = a \cdot 0 = a \cdot 0 + 0$\\ 
+		$\mathop{\Rightarrow}\limits^{\mathbb{R}^{+}\text{Gruppe}} a \cdot 0 = 0$ \\
+		$ab + a(-b) = a(b+(-b))=a \cdot 0 = 0$\\
+		$\Rightarrow a(-b) = -(ab)$
+	\item Ist $a \cdot b = 0$ und ist $a \neq 0$, so\\
+		$a^{-1}(a \cdot b) = (a^{-1}a)b=1 \cdot b = b$ wobei $a^{-1} = a^{-1} \cdot 0 = 0$
+\end{enumerate}
+%
+%
+%
+\subsection{Definition:}
+ Ringhomomorphismus: $\varphi:R\rightarrow S$\\
+Sei ein Gruppenhomomoorphismus bzgl. $+$ mit $\varphi(a \cdot b) = \varphi (a) \cdot \varphi(b) \ \forall a,b \in R$\\
+Setze wieder Kern$\varphi = \{a \in R| \varphi(a)=0\}$
+%
+%
+%
+\subsection{Bemerkung:}
+In gleicher Weise wie bei Gruppen gilt dann:
+\begin{enumerate}[label={(\alph*)}]
+	\item Bild $\varphi$ ist ein Unterring von $S$.
+	\item Kern$\varphi$ ist ein sogenanntes Ideal von $R$, d.h., es gilt:
+	\begin{description}
+		\item[-] Kern$\varphi$ ist Untergruppe von $R^{+}$
+		\item[-] magnetische Eigenschaft: $a \cdot r \in$ Kern$\varphi \wedge r \cdot a \in$ Kern$\varphi \ \forall a \in$ 
+			Kern$\varphi$ und $r \in R$
+		\item[-] die Fasern von $\varphi$ sind genau die Mengen (Kern$\varphi$)$+a$ $(a \in R)$\\
+				Wir haben also wieder eine Bijektion
+		\begin{equation*}
+			(Kern\varphi) + a \mathop{\longleftrightarrow}\limits^{\tilde{\varphi}} \varphi(a)
+		\end{equation*}
+		$R\diagdown$Kern$\varphi = \{$ Kern$\varphi +a| a \in R\} \longleftrightarrow$ Bild$\varphi$\\
+		Wieder kann $R\diagdown$Kern$\varphi$ vermöge $\tilde{\varphi}$ zu einem Ring gemacht werden.\\
+		$I :=$ Kern$\varphi$
+		\begin{equation*}
+			(I+a)+(I+b)=I+(a+b)
+		\end{equation*}
+		\begin{equation*}
+			(I+a)\cdot(I+b)=I+(ab) \ \forall a,b \in R
+		\end{equation*}
+	\end{description}
+\end{enumerate}

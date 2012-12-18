@@ -123,18 +123,64 @@ Ein Gruppenhomomorphismus $\varphi: G \rightarrow H$ (wobei $G,H$ Gruppen sind) 
 %
 %
 %
-\subsection{In der Notation von 1.8 gilt}
+\subsection{Satz:}
 \begin{description}
-	\item[(a)] $\varphi(e)=e \rightarrow$ von $h$ und $\varphi(g^{-1}) = (\varphi(g))^{-1} \ \forall g \in G$
-	\item[(b)] Bild $q \leq H$
+	\item[(a)] $\varphi(e)=e$ \qquad $\varphi(a^{-1}) = (\varphi(a))^{-1}$ \qquad\ $\forall \ a \in G \ \checkmark$
+	\item[(b)] Bild $q \leq H \ \checkmark$
+	\item[(c)] Die Fasern von $\varphi$ sind genau die Menge $Ug \ (g \in G)$\\
+			wo $N=\{u \in G|\varphi(u)=e\}=:$ Kern $\varphi$\\
+			und $Ng = \{ug|u \in N\}$
+	\item[(d)] $N$ ist ein Normalteiler von $G$, d.h.\\
+	\begin{description}
+		\item[-] $N \leq G$ und
+		\item[-] $g^{-1}ug \in N$ für jedes $u \in N$ und $g \in G$
+	\end{description}
 	\item[Beweis:] \quad
 	\begin{description}
-		\item[(a):] $e \cdot \varphi(e) = \varphi(e) = \ '\varphi(e \cdot e) = \varphi(e) \cdot \varphi(e) 
-				\mathop{\Rightarrow}\limits^{\text{kürzen}} e = \varphi(e)$\\
-				$e = \varphi(e) = \varphi(g \cdot g^{-1}) = \varphi(g)\cdot\varphi(g^{-1})$\\
-				ebenso $= \varphi(g^{-1})\varphi(g)$\\
-				$\Rightarrow \varphi(g^{-1}) = (\varphi(g))^{-1}$
-		\item[(b):] $e = \varphi(e) \in$ Bild $\varphi$ und $\varphi(a) \cdot \varphi(b)^{-1} = \varphi(a) \cdot 
-				\varphi(b^{-1}) = \ '\varphi(ab^{-1}) \in$ Bild $\varphi$
+		\item[(c):] Sei $g \in G$ fest. Betrachte $\varphi(g) \in$ Bild $\varphi$\\
+				Sei $a \in G$ mit $\varphi(a) = \varphi(g)$\\
+				Dann:	
+				\begin{description}
+					\item[]$e = \varphi(a)\varphi(g)^{-1}=\varphi(a \cdot g^{-1})$ und $a \cdot g^{-1} \in$ 
+						Kern $\varphi=N$
+					\item[]$a \cdot g^{-1}= u \in N$ für ein $u$
+					\item[]$\Rightarrow a=u \cdot g \in Ng$
+				\end{description}
+				Dies zeigt: Faser zu $\varphi(g)$ ist in $Ng$ enthalten.\\
+				Sei umgekehrt $a \in Ng$, also $a= u \cdot g$ für ein $u \in N =$ Kern$\varphi$\\
+				$\Rightarrow \varphi(a)=\varphi(u \cdot g) = \varphi(u) \cdot \varphi(g) = e \cdot \varphi(g) = 
+				\varphi(g)$\\
+				$\Rightarrow a$ in Faser zu $\varphi(g)$
+		\item[(d):] \quad
+				\begin{description}
+				\item[-] Nach (a) ist $e \in N$. Ferner gilt für $a,b \in N$:\\
+						$\varphi(ab^{-1}) = \varphi(a) \cdot \varphi(b)^{-1} = e \cdot e^{-1} =e$\\
+						$\Rightarrow ab^{-1} \in N$ Kern$\varphi$
+				\item[-] Für $u \in$ Kern$\varphi$ und $g \in G$ gilt\\
+					$\varphi(g^{-1}ug) = \varphi(g)^{-1} \cdot \mathop{\underbrace{\varphi(g)}}\limits_{=e} 
+					\cdot \varphi(g) = \varphi(g)^{-1} \cdot \varphi(g) =e$\\
+					$\Rightarrow g^{-1}ug \in N$
+				\end{description}
 	\end{description}
 \end{description}
+%
+%
+%
+\subsection{Bemerkung}
+Sei $\varphi: G \rightarrow H$ ein Gruppenhomomorphismus. Nach II.1.9(c) ist eine Projektion gegeben durch:
+\begin{description}
+	\item[] $Ng \longleftrightarrow \varphi(g)$
+	\item[] $\{Ng|g \in G\} \mathop{\longleftrightarrow}\limits^{\tilde{\varphi}}$ Bild$\varphi$
+\end{description}
+Vermöge $\tilde{\varphi}$ übertragen wir die Gruppenstruktur von Bild$\varphi$ auf $\{Ng|g \in G\}  =: G/N$\\
+Wie funktioniert die Multiplikation in $G/N$?
+\begin{equation*}
+	(Ng_{1})\cdot(Ng_{2}) \mathop{\longleftrightarrow}\limits^{\tilde{\varphi}} \varphi(g_{1}) \cdot 		
+	\varphi(g_{2})=\varphi(g_{1}g_{2}) \mathop{\longleftrightarrow}\limits^{\tilde{\varphi}} N(g_{1}g_{2})
+\end{equation*}
+\begin{description}
+	\item[Also:] $(Ng_{1})\cdot(Ng_{2}) =  N(g_{1}g_{2}) \quad \forall \ g_{1},g_{2} \in G$
+	\item[Ebenso:] $Ne$ ist das neutrale Element in $G/N$\\
+			$N(g^{-1})$ ist das Inverse zu $Ng$.
+\end{description}
+Das entspricht genau der Addition auf $\mathbb{Z}/n\mathbb{Z} = \{n\mathbb{Z}+k|k\in\mathbb{Z}\}$
