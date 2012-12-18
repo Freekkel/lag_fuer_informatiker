@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  18 DEC 2012 13:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  18 DEC 2012 19:00
 entering extended mode
 **Skript.tex
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.tex"
@@ -45,16 +45,16 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrbook Info: You've used obsolete option `12pt'.
-(scrbook)             \KOMAExecuteOptions{fontsize=12pt} will be
+Package scrbook Info: You've used obsolete option `10pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=10pt} will be
 (scrbook)             used instead.
-(scrbook)             You may simply replace `12pt'
-(scrbook)             by `fontsize=12pt'.
-Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+(scrbook)             You may simply replace `10pt'
+(scrbook)             by `fontsize=10pt'.
+Class scrbook Info: File `scrsize10pt.clo' used to setup font sizes on input li
 ne 1368.
 
-("C:\Programme\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
-File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12p
+("C:\Programme\MiKTeX 2.9\tex\latex\koma-script\scrsize10pt.clo"
+File: scrsize10pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (10p
 t)
 )
 ("C:\Programme\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
@@ -76,21 +76,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@vblk=\skip43
 \ta@temp=\skip44
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 12
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 448.13095pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 27.31467pt
-(typearea)              \oddsidemargin  = -22.47766pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 77.107pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 635.5pt
-(typearea)              \topmargin      = -41.72441pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
 (typearea)              on input line 1213.
 )
 \c@part=\count80
@@ -867,29 +867,45 @@ LaTeX Font Info:    ... okay on input line 31.
 \makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks34
 ) ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\front/title.tex"
-LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 
 ("C:\Programme\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Programme\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Programme\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 7.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 6.
 
 ("C:\Programme\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 <front/pics/Logo.jpg, id=1, 986.68625pt x 670.505pt>
 File: front/pics/Logo.jpg Graphic file (type jpg)
  <use front/pics/Logo.jpg>
-Package pdftex.def Info: front/pics/Logo.jpg used on input line 11.
-(pdftex.def)             Requested size: 341.43091pt x 227.62083pt.
+Package pdftex.def Info: front/pics/Logo.jpg used on input line 8.
+(pdftex.def)             Requested size: 197.33376pt x 134.09862pt.
+
+Underfull \hbox (badness 3000) in paragraph at lines 16--16
+\T1/cmr/m/n/12 des Pflicht-mo-duls Li-nea-re Al-ge-bra und Zah-len-theo-rie, 
+der
+ []
+
+
+Overfull \hbox (86.74976pt too wide) in paragraph at lines 16--16
+\T1/cmr/m/n/12 http://www.mathematik.uni-mainz.de/arbeitsgruppen/gruppentheorie
+/leinen/w12-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+
+ []
 
 [1
 Non-PDF special ignored!
@@ -931,11 +947,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--10
 
 )
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\frontmatter/table_of_c
-ontents.tex"
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[1] [2
+ontents.tex" [1] [2
 
 
 ]
@@ -944,49 +956,38 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.toc" [3]
-Underfull \vbox (badness 7631) has occurred while \output is active []
-
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
+Overfull \hbox (2.72159pt too wide) detected at line 94
+\T1/cmr/m/n/10 III.1.10. 
+ []
 
 [4]
-Overfull \hbox (3.18526pt too wide) detected at line 94
-\T1/cmr/m/n/12 III.1.10. 
+Overfull \hbox (2.72159pt too wide) detected at line 111
+\T1/cmr/m/n/10 III.3.10. 
  []
 
 
-Overfull \hbox (3.18526pt too wide) detected at line 111
-\T1/cmr/m/n/12 III.3.10. 
+Overfull \hbox (2.72159pt too wide) detected at line 112
+\T1/cmr/m/n/10 III.3.11. 
  []
 
 
-Overfull \hbox (3.18526pt too wide) detected at line 112
-\T1/cmr/m/n/12 III.3.11. 
+Overfull \hbox (2.72159pt too wide) detected at line 113
+\T1/cmr/m/n/10 III.3.12. 
  []
 
 
-Overfull \hbox (3.18526pt too wide) detected at line 113
-\T1/cmr/m/n/12 III.3.12. 
+Overfull \hbox (2.72159pt too wide) detected at line 114
+\T1/cmr/m/n/10 III.3.13. 
  []
 
 
-Overfull \hbox (3.18526pt too wide) detected at line 114
-\T1/cmr/m/n/12 III.3.13. 
- []
-
-
-Overfull \hbox (3.18526pt too wide) detected at line 115
-\T1/cmr/m/n/12 III.3.14. 
+Overfull \hbox (2.72159pt too wide) detected at line 115
+\T1/cmr/m/n/10 III.3.14. 
  []
 
 )
 \tf@toc=\write3
-)
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[5] [6
+) [5] [6
 
 
 ]
@@ -1020,7 +1021,7 @@ File: mainmatter/chapter1/pics/graph.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/graph.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/graph.png used on input line 
-39.
+40.
 (pdftex.def)             Requested size: 398.34027pt x 227.62639pt.
 
 <mainmatter/chapter1/pics/abbildungen.jpg, id=54, 603.25375pt x 442.65375pt>
@@ -1028,16 +1029,12 @@ File: mainmatter/chapter1/pics/abbildungen.jpg Graphic file (type jpg)
 
 <use mainmatter/chapter1/pics/abbildungen.jpg>
 Package pdftex.def Info: mainmatter/chapter1/pics/abbildungen.jpg used on input
- line 69.
+ line 70.
 (pdftex.def)             Requested size: 483.68983pt x 284.54022pt.
 
-Overfull \hbox (28.44576pt too wide) in paragraph at lines 69--70
+Overfull \hbox (28.44576pt too wide) in paragraph at lines 70--71
  [][] 
  []
-
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
 
 [2 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
 pics/graph.png (PNG copy)>]
@@ -1046,56 +1043,38 @@ File: mainmatter/chapter1/pics/komposition.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/komposition.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/komposition.png used on input
- line 96.
+ line 97.
 (pdftex.def)             Requested size: 170.71733pt x 227.62273pt.
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+Underfull \vbox (badness 4779) has occurred while \output is active []
 
-
-[3 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
-pics/abbildungen.jpg>]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[4 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
-pics/komposition.png>]
+ [3 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1
+/pics/abbildungen.jpg>] [4 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/la
+tex/mainmatter/chapter1/pics/komposition.png>]
 <mainmatter/chapter1/pics/untermengen1.png, id=70, 155.6214pt x 99.4917pt>
 File: mainmatter/chapter1/pics/untermengen1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/untermengen1.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/untermengen1.png used on inpu
-t line 144.
+t line 145.
 (pdftex.def)             Requested size: 142.27344pt x 85.36382pt.
 )
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter1/aq
-uivalenzrelationen.tex"
-Overfull \vbox (2.16158pt too high) has occurred while \output is active []
-
-
-[5 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
-pics/untermengen1.png>]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[6]
-<mainmatter/chapter1/pics/bijektivinvers.png, id=81, 249.93375pt x 167.62625pt>
+uivalenzrelationen.tex" [5 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/la
+tex/mainmatter/chapter1/pics/untermengen1.png>]
+<mainmatter/chapter1/pics/bijektivinvers.png, id=78, 249.93375pt x 167.62625pt>
 File: mainmatter/chapter1/pics/bijektivinvers.png Graphic file (type png)
 <use mainmatter/chapter1/pics/bijektivinvers.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bijektivinvers.png used on in
 put line 66.
 (pdftex.def)             Requested size: 227.63075pt x 142.263pt.
-
-Overfull \vbox (2.16158pt too high) has occurred while \output is active []
-
-
-[7 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
-pics/bijektivinvers.png>]))
+ [6]))
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_2.t
-ex"
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+ex" [7 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapt
+er1/pics/bijektivinvers.png>] [8
 
 
-[8]
+]
 Kapitel II.
 
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/te
@@ -1103,10 +1082,18 @@ ilbarkeit.tex"
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 34.
 
-[9
 
+Overfull \hbox (35.75793pt too wide) in paragraph at lines 41--42
+[]\T1/cmr/m/n/10 Die ƒqui-va-lenz-klas-se zu $\U/MnSymbolD/m/n/10 []$ \T1/cmr/
+m/n/10 sind ge-nau: $\OMX/MnSymbolE/m/n/10  \OT1/cmr/m/n/10 0\OMX/MnSymbolE/m/n
+/10 \OML/cmm/m/it/10 ; \OMX/MnSymbolE/m/n/10  \OT1/cmr/m/n/10 1\OMX/MnSymbolE/
+m/n/10 \OML/cmm/m/it/10 ; \OMX/MnSymbolE/m/n/10  \OT1/cmr/m/n/10 2\OMX/MnSymbo
+lE/m/n/10 \OML/cmm/m/it/10 ; [] ; \OMX/MnSymbolE/m/n/10  \OML/cmm/m/it/10 n \U
+/MnSymbolC/m/n/10  \OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 $ \T1/cmr/m/n/10 In
+s-be-son-de-re gilt die so-ge-nann-te $[]$
+ []
 
-]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
@@ -1117,23 +1104,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
  []
 
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[10]
-
 LaTeX Warning: Command \" invalid in math mode on input line 112.
 
-Missing character: There is no ¸ in font cmr12!
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[11]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[12]
+Missing character: There is no ¸ in font cmr10!
+[10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
@@ -1145,11 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--1
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
@@ -1160,24 +1130,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--25
  []
 
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[14]
 Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[15]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1194,16 +1156,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--1
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[16]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<mainmatter/chapter2/pics/graphkryp.png, id=119, 829.0975pt x 536.0025pt>
+<mainmatter/chapter2/pics/graphkryp.png, id=113, 829.0975pt x 536.0025pt>
 File: mainmatter/chapter2/pics/graphkryp.png Graphic file (type png)
 
 <use mainmatter/chapter2/pics/graphkryp.png>
@@ -1215,53 +1173,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[17 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter2
+[15 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter2
 /pics/graphkryp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[18]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[19])
+[16])
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/pr
-imzahlen.tex"
+imzahlen.tex" [17]
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
+[18]
+Overfull \hbox (28.92923pt too wide) in paragraph at lines 66--68
+\T1/cmr/m/n/10 Entweder stellt sich nach kur-z-er Zeit her-aus, dass $\OML/cmm/
+m/it/10 n$ \T1/cmr/m/n/10 kei-ne Prim-zahl, oder $\OML/cmm/m/it/10 n$ \T1/cmr/m
+/n/10 ist $[]$
+ []
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[20]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[21]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[22]))
+[19]))
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_3.t
-ex"
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[23] [24
-
-
-]
+ex" [20]
 Kapitel III.
 
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/gr
@@ -1270,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<mainmatter/chapter3/pics/fadendia1-3.png, id=151, 60.7068pt x 26.2581pt>
+<mainmatter/chapter3/pics/fadendia1-3.png, id=139, 60.7068pt x 26.2581pt>
 File: mainmatter/chapter3/pics/fadendia1-3.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/fadendia1-3.png>
@@ -1278,20 +1212,18 @@ Package pdftex.def Info: mainmatter/chapter3/pics/fadendia1-3.png used on input
  line 34.
 (pdftex.def)             Requested size: 113.81752pt x 56.90573pt.
 
-<mainmatter/chapter3/pics/fadendia1-2.png, id=152, 60.7068pt x 25.7763pt>
+<mainmatter/chapter3/pics/fadendia1-2.png, id=140, 60.7068pt x 25.7763pt>
 File: mainmatter/chapter3/pics/fadendia1-2.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/fadendia1-2.png>
 Package pdftex.def Info: mainmatter/chapter3/pics/fadendia1-2.png used on input
  line 39.
 (pdftex.def)             Requested size: 113.81752pt x 56.91136pt.
- [25]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+ [21
 
 
-[26 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter3
-/pics/fadendia1-3.png> <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/
-mainmatter/chapter3/pics/fadendia1-2.png>]
+ <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter3/pi
+cs/fadendia1-3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -1311,59 +1243,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--101
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[27]
+[22 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter3
+/pics/fadendia1-2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
-
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[28])
+[23])
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/ri
-nge.tex"
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[29]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[30])
+nge.tex" [24])
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/po
-lynomringe.tex"
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[31]
+lynomringe.tex" [25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
 
 
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
+Overfull \hbox (4.4713pt too wide) in paragraph at lines 67--71
+[]\T1/cmr/m/n/10 Sind $\OML/cmm/m/it/10 f \U/MnSymbolD/m/n/10   \OML/cmm/m/it/1
+0 q[]g \U/MnSymbolC/m/n/10  \OML/cmm/m/it/10 r[] \U/MnSymbolD/m/n/10   \OML/cm
+m/m/it/10 q[]g \U/MnSymbolC/m/n/10  \OML/cmm/m/it/10 r[]$ \T1/cmr/m/n/10 mit g
+rad $\OML/cmm/m/it/10 r[] \U/MnSymbolD/m/n/10 @$ \T1/cmr/m/n/10 grad$\OML/cmm/m
+/it/10 g$\T1/cmr/m/n/10 , so $\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 q[] \U/Mn
+SymbolC/m/n/10  \OML/cmm/m/it/10 q[]\OMX/MnSymbolE/m/n/10 ç\OML/cmm/m/it/10 g 
+\U/MnSymbolD/m/n/10   \OML/cmm/m/it/10 r[] \U/MnSymbolC/m/n/10  \OML/cmm/m/it/
+10 r[]$ \T1/cmr/m/n/10 mit grad$[] \U/MnSymbolD/m/n/10 $
+ []
 
-
-[32]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[33]
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[34])
+[27])
 ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/ko
-erperkonstruktion.tex"))
-Overfull \vbox (1.61414pt too high) has occurred while \output is active []
-
-
-[35] [36
+erperkonstruktion.tex" [28])) [29] [30
 
 
 ]
@@ -1371,48 +1280,51 @@ Overfull \vbox (1.61414pt too high) has occurred while \output is active []
 es.tex" ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.lof")
 \tf@lof=\write4
 )
-[37
+[31
 
 
 ] ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.aux") ) 
 Here is how much of TeX's memory you used:
- 8964 strings out of 493921
- 124840 string characters out of 3148822
- 211278 words of memory out of 3000000
+ 8977 strings out of 493921
+ 124881 string characters out of 3148822
+ 213250 words of memory out of 3000000
  12003 multiletter control sequences out of 15000+200000
- 36837 words of font info for 113 fonts, out of 3000000 for 9000
+ 37716 words of font info for 113 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,13n,47p,574b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Pr
 ogramme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/Programme/MiKTeX 
-2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/d
-vips/mnsymbol/MnSymbolD.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/M
-nSymbolF.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolB.enc}{C
-:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Programme/MiK
-TeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Programme/MiKTeX 2.9/fonts
-/type1/public/mnsymbol/MnSymbol12.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publ
-ic/mnsymbol/MnSymbol6.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/mnsymbol/
-MnSymbol8.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
+2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Programme/MiKTeX 2.9/fonts/enc
+/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol
+/MnSymbolD.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}
+{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolB.enc}{C:/Programme/M
+iKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<C:/Programme/MiKTeX 2.9/fonts
+/type1/public/mnsymbol/MnSymbol10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publ
+ic/mnsymbol/MnSymbol5.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/mnsymbol/
+MnSymbol7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
 b><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-mme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Programme/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Programme/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progr
-amme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Programme/MiKTeX 2.
-9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Programme/MiKTeX 2.9/fonts
-/type1/public/cm-super/sfrm0800.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public
-/cm-super/sfrm1095.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
-m1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:
-/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Programme/Mi
-KTeX 2.9/fonts/type1/public/cm-super/sfrm2488.pfb><C:/Programme/MiKTeX 2.9/font
-s/type1/public/cm-super/sfsl1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfsx1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sf
-sx1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C
-:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2488.pfb>
-Output written on Skript.pdf (45 pages, 827333 bytes).
+mme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Programme/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Programme/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi5.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ramme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Programme/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfbx1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pf
+b><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Program
+me/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Programme/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/
+public/cm-super/sfrm1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfrm1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1000.p
+fb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Progra
+mme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Programme/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1
+/public/cm-super/sfsx2074.pfb>
+Output written on Skript.pdf (39 pages, 846977 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 284 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
