@@ -1,0 +1,20 @@
+\section{Endliche Körper}
+%
+%
+%
+\subsection{Satz:}
+Zu jedem endlichen Körper $L$ existiert eine Primzahl $p$ so dass gilt:
+\begin{enumerate}[label={(\alph*)}]
+	\item $K = \mathop{\underbrace{\{1+1+ \dotsc +1\}}}\limits{k\text{-mal}}|k \in \mathbb{N}$ ist ein Teilkörper von $L$ 
+		isomorph zu $\mathbb{Z}/p\mathbb{Z}$.
+	\item $L$ ist ein $K$-Vektorraum. Insbesondere gilt $|L| = p^{n}$ für $n = dim_{k}L$
+	\item $\mathop{\underbrace{a+ \dotsc +a}}\limits_{p\text{ mal für jedes } a \in L} = 0$
+\end{enumerate}
+Beweis:
+\begin{enumerate}[label={(\alph*)}]
+	\item Betrachte: $\varphi :\mathbb{Z} \rightarrow L$\\
+				.\qquad \qquad $z \rightarrow \mathop{\underbrace{1+ \dotsc + 1}}\limits_{z\text{ mal}}$\\
+				$\varphi$ ist ein Ringhomomorphismus. Sei Kern $\varphi = n \mathbb{Z}$ (mit $n\in\mathbb{N}$)\\
+				$\varphi^{-1}$: Bild \varphi \rightarrow \mathbb{Z}/n\mathbb{Z}$\\
+				.\qquad \qquad $a \rightarrow \varphi^{-1}(a)=k+m\mathbb{Z}$ wo $\varphi(k)=a$.
+\end{enumerate}

@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  18 DEC 2012 19:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.17)  21 DEC 2012 16:49
 entering extended mode
 **Skript.tex
-
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\Skript.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -834,26 +832,26 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\Skript.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
- ("C:\Programme\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
+
+("C:\Programme\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 35.
 
 ("C:\Programme\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -868,11 +866,10 @@ LaTeX Font Info:    ... okay on input line 31.
 \MPnumerator=\count136
 \makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks34
-)
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\front/title.tex"
+) ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\front/title.tex"
 LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
- ("C:\Programme\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+
+("C:\Programme\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
@@ -922,13 +919,13 @@ Non-PDF special ignored!
 
 
 {C:/Dokumente und Einstellungen/All Users/Anwendungsdaten/MiKTeX/2.9/pdftex/con
-fig/pdftex.map} <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_
-fuer_informatiker/latex/front/pics/Logo.jpg>]) [2
+fig/pdftex.map} <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/front/p
+ics/Logo.jpg>]) [2
 
 
 ]
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\frontmatter/preface.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\frontmatter/preface.te
+x"
 Underfull \hbox (badness 10000) in paragraph at lines 1--10
 
  []
@@ -949,55 +946,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--10
  []
 
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\frontmatter/table_of_contents.tex" [1] [2
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\frontmatter/table_of_c
+ontents.tex" [1] [2
 
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
-
-("C:\Programme\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+ ("C:\Programme\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\Skript.toc" [3]
-Overfull \hbox (2.72159pt too wide) detected at line 94
-\T1/cmr/m/n/10 III.1.10. 
- []
-
-[4]
-Overfull \hbox (2.72159pt too wide) detected at line 111
-\T1/cmr/m/n/10 III.3.10. 
- []
-
-
-Overfull \hbox (2.72159pt too wide) detected at line 112
-\T1/cmr/m/n/10 III.3.11. 
- []
-
-
-Overfull \hbox (2.72159pt too wide) detected at line 113
-\T1/cmr/m/n/10 III.3.12. 
- []
-
-
-Overfull \hbox (2.72159pt too wide) detected at line 114
-\T1/cmr/m/n/10 III.3.13. 
- []
-
-
-Overfull \hbox (2.72159pt too wide) detected at line 115
-\T1/cmr/m/n/10 III.3.14. 
- []
-
-)
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.toc")
 \tf@toc=\write3
-) [5] [6
+) [3]
+[4
 
 
 ]
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter_1.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_1.t
+ex"
 Kapitel I.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1007,9 +973,9 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              `scrbook' soon .
 
 
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter1/abbildungen.tex"
-<mainmatter/chapter1/pics/abbildunggenerell.png, id=39, 730.73pt x 395.4775pt>
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter1/ab
+bildungen.tex"
+<mainmatter/chapter1/pics/abbildunggenerell.png, id=29, 730.73pt x 395.4775pt>
 File: mainmatter/chapter1/pics/abbildunggenerell.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/abbildunggenerell.png>
@@ -1019,9 +985,9 @@ Package pdftex.def Info: mainmatter/chapter1/pics/abbildunggenerell.png used on
  [1
 
 
- <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informatik
-er/latex/mainmatter/chapter1/pics/abbildunggenerell.png>]
-<mainmatter/chapter1/pics/graph.png, id=53, 842.14626pt x 568.1225pt>
+ <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/pi
+cs/abbildunggenerell.png>] <mainmatter/chapter1/pics/graph.png, id=44, 842.1462
+6pt x 568.1225pt>
 File: mainmatter/chapter1/pics/graph.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/graph.png>
@@ -1029,7 +995,7 @@ Package pdftex.def Info: mainmatter/chapter1/pics/graph.png used on input line
 40.
 (pdftex.def)             Requested size: 398.34027pt x 227.62639pt.
 
-<mainmatter/chapter1/pics/abbildungen.jpg, id=54, 603.25375pt x 442.65375pt>
+<mainmatter/chapter1/pics/abbildungen.jpg, id=45, 603.25375pt x 442.65375pt>
 File: mainmatter/chapter1/pics/abbildungen.jpg Graphic file (type jpg)
 
 <use mainmatter/chapter1/pics/abbildungen.jpg>
@@ -1041,9 +1007,9 @@ Overfull \hbox (28.44576pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-[2 <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informat
-iker/latex/mainmatter/chapter1/pics/graph.png (PNG copy)>]
-<mainmatter/chapter1/pics/komposition.png, id=61, 446.66875pt x 601.24625pt>
+[2 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1/
+pics/graph.png (PNG copy)>]
+<mainmatter/chapter1/pics/komposition.png, id=53, 446.66875pt x 601.24625pt>
 File: mainmatter/chapter1/pics/komposition.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/komposition.png>
@@ -1053,11 +1019,10 @@ Package pdftex.def Info: mainmatter/chapter1/pics/komposition.png used on input
 
 Underfull \vbox (badness 4779) has occurred while \output is active []
 
- [3 <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informa
-tiker/latex/mainmatter/chapter1/pics/abbildungen.jpg>] [4 <C:/Dokumente und Ein
-stellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informatiker/latex/mainmatter/ch
-apter1/pics/komposition.png>]
-<mainmatter/chapter1/pics/untermengen1.png, id=70, 155.6214pt x 99.4917pt>
+ [3 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter1
+/pics/abbildungen.jpg>] [4 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/la
+tex/mainmatter/chapter1/pics/komposition.png>]
+<mainmatter/chapter1/pics/untermengen1.png, id=62, 155.6214pt x 99.4917pt>
 File: mainmatter/chapter1/pics/untermengen1.png Graphic file (type png)
 
 <use mainmatter/chapter1/pics/untermengen1.png>
@@ -1065,28 +1030,26 @@ Package pdftex.def Info: mainmatter/chapter1/pics/untermengen1.png used on inpu
 t line 145.
 (pdftex.def)             Requested size: 142.27344pt x 85.36382pt.
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter1/aquivalenzrelationen.tex" [5 <C:/Dokumente und Ein
-stellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informatiker/latex/mainmatter/ch
-apter1/pics/untermengen1.png>]
-<mainmatter/chapter1/pics/bijektivinvers.png, id=78, 249.93375pt x 167.62625pt>
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter1/aq
+uivalenzrelationen.tex" [5 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/la
+tex/mainmatter/chapter1/pics/untermengen1.png>]
+<mainmatter/chapter1/pics/bijektivinvers.png, id=69, 249.93375pt x 167.62625pt>
 File: mainmatter/chapter1/pics/bijektivinvers.png Graphic file (type png)
 <use mainmatter/chapter1/pics/bijektivinvers.png>
 Package pdftex.def Info: mainmatter/chapter1/pics/bijektivinvers.png used on in
 put line 66.
 (pdftex.def)             Requested size: 227.63075pt x 142.263pt.
  [6]))
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter_2.tex" [7 <C:/Dokumente und Einstellungen/Sven/Eige
-ne Dateien/GitHub/lag_fuer_informatiker/latex/mainmatter/chapter1/pics/bijektiv
-invers.png>] [8
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_2.t
+ex" [7 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapt
+er1/pics/bijektivinvers.png>] [8
 
 
 ]
 Kapitel II.
 
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter2/teilbarkeit.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/te
+ilbarkeit.tex"
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 34.
 
@@ -1121,8 +1084,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
  []
 
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter2/modulo.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/mo
+dulo.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 233--1
 
  []
@@ -1153,8 +1116,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
  []
 
 )
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter2/kryptograhie.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/kr
+yptograhie.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 105--1
 
  []
@@ -1169,7 +1132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<mainmatter/chapter2/pics/graphkryp.png, id=113, 829.0975pt x 536.0025pt>
+<mainmatter/chapter2/pics/graphkryp.png, id=105, 829.0975pt x 536.0025pt>
 File: mainmatter/chapter2/pics/graphkryp.png Graphic file (type png)
 
 <use mainmatter/chapter2/pics/graphkryp.png>
@@ -1181,15 +1144,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--41
 
  []
 
-[15 <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informa
-tiker/latex/mainmatter/chapter2/pics/graphkryp.png>]
+[15 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter2
+/pics/graphkryp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
 [16])
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter2/primzahlen.tex" [17]
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter2/pr
+imzahlen.tex" [17]
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
@@ -1202,17 +1165,17 @@ m/it/10 n$ \T1/cmr/m/n/10 kei-ne Prim-zahl, oder $\OML/cmm/m/it/10 n$ \T1/cmr/m
  []
 
 [19]))
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter_3.tex" [20]
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter_3.t
+ex" [20]
 Kapitel III.
 
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter3/gruppen.tex"
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/gr
+uppen.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<mainmatter/chapter3/pics/fadendia1-3.png, id=139, 60.7068pt x 26.2581pt>
+<mainmatter/chapter3/pics/fadendia1-3.png, id=131, 60.7068pt x 26.2581pt>
 File: mainmatter/chapter3/pics/fadendia1-3.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/fadendia1-3.png>
@@ -1220,7 +1183,7 @@ Package pdftex.def Info: mainmatter/chapter3/pics/fadendia1-3.png used on input
  line 34.
 (pdftex.def)             Requested size: 113.81752pt x 56.90573pt.
 
-<mainmatter/chapter3/pics/fadendia1-2.png, id=140, 60.7068pt x 25.7763pt>
+<mainmatter/chapter3/pics/fadendia1-2.png, id=132, 60.7068pt x 25.7763pt>
 File: mainmatter/chapter3/pics/fadendia1-2.png Graphic file (type png)
 
 <use mainmatter/chapter3/pics/fadendia1-2.png>
@@ -1230,8 +1193,8 @@ Package pdftex.def Info: mainmatter/chapter3/pics/fadendia1-2.png used on input
  [21
 
 
- <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informatik
-er/latex/mainmatter/chapter3/pics/fadendia1-3.png>]
+ <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter3/pi
+cs/fadendia1-3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -1251,17 +1214,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--101
 
  []
 
-[22 <C:/Dokumente und Einstellungen/Sven/Eigene Dateien/GitHub/lag_fuer_informa
-tiker/latex/mainmatter/chapter3/pics/fadendia1-2.png>]
+[22 <C:/Dokumente und Einstellungen/Sven/Desktop/lag+/latex/mainmatter/chapter3
+/pics/fadendia1-2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 [23])
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter3/ringe.tex" [24])
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter3/polynomringe.tex" [25] [26]
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/ri
+nge.tex" [24])
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/po
+lynomringe.tex" [25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
@@ -1279,62 +1242,76 @@ SymbolC/m/n/10  \OML/cmm/m/it/10 q[]\OMX/MnSymbolE/m/n/10 ç\OML/cmm/m/it/10 g
  []
 
 [27])
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\mainmatter/chapter3/koerperkonstruktion.tex" [28])) [29] [30
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/ko
+erperkonstruktion.tex" [28]
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 76--80
+
+ []
+
+)
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\mainmatter/chapter3/en
+dliche_koerper.tex" [30]
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+)) [31] [32
 
 
 ]
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\backmatter/listoffigures.tex"
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\Skript.lof")
+("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\backmatter/listoffigur
+es.tex" ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.lof")
 \tf@lof=\write4
-) [31
+)
+[33
 
 
-]
-("C:\Dokumente und Einstellungen\Sven\Eigene Dateien\GitHub\lag_fuer_informatik
-er\latex\Skript.aux") ) 
+] ("C:\Dokumente und Einstellungen\Sven\Desktop\lag+\latex\Skript.aux") ) 
 Here is how much of TeX's memory you used:
- 8977 strings out of 493921
- 126493 string characters out of 3148822
+ 8985 strings out of 493921
+ 125239 string characters out of 3148822
  213250 words of memory out of 3000000
- 12003 multiletter control sequences out of 15000+200000
- 37716 words of font info for 113 fonts, out of 3000000 for 9000
+ 12007 multiletter control sequences out of 15000+200000
+ 38492 words of font info for 114 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,13n,47p,574b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymb
-olA.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/P
-rogramme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiKTeX
- 2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/
-dvips/mnsymbol/MnSymbolF.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/
-MnSymbolB.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<
-C:/Programme/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol10.pfb><C:/Programm
-e/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol5.pfb><C:/Programme/MiKTeX 2.9
-/fonts/type1/public/mnsymbol/MnSymbol7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Pro
-gramme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Programme/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Programme/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r5.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
-gramme/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Programme/
-MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Programme/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type
-1/public/cm-super/sfbx1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-s
-uper/sfrm0700.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800
-.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Prog
-ramme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Programme/MiKTeX 
-2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Programme/MiKTeX 2.9/fonts/typ
-e1/public/cm-super/sfsl1000.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfsx1000.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx120
-0.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Pro
-gramme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on Skript.pdf (39 pages, 847194 bytes).
+{C:/Pr
+ogramme/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Programme/MiKTe
+X 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/Programme/MiKTeX 2.9/fonts/enc
+/dvips/mnsymbol/MnSymbolC.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol
+/MnSymbolD.enc}{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}
+{C:/Programme/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolB.enc}{C:/Programme/M
+iKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<C:/Programme/MiKTeX 2.9/fonts
+/type1/public/mnsymbol/MnSymbol10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/publ
+ic/mnsymbol/MnSymbol5.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/mnsymbol/
+MnSymbol7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program
+me/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Programme/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Programme/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.p
+fb><C:/Programme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program
+me/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Programme/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Programme/MiKTeX 2.9/f
+onts/type1/public/cm-super/sfbx1000.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super
+/sfbx1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0700.pfb
+><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Programm
+e/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Programme/MiKTeX 2.9/
+fonts/type1/public/cm-super/sfrm1200.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfrm1440.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfsl1000.pfb><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1000.pf
+b><C:/Programme/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Program
+me/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Programme/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfsx2074.pfb>
+Output written on Skript.pdf (39 pages, 864930 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
+ 280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -115,3 +115,12 @@
 \contentsline {subsection}{\numberline {III.3.14}Bemerkung}{29}
 \contentsline {section}{\numberline {III.4}K\IeC {\"o}rperkonstruktionen}{29}
 \contentsline {subsection}{\numberline {III.4.1}Definition und Bemerkung:}{29}
+\contentsline {subsection}{\numberline {III.4.2}Beispiel:}{29}
+\contentsline {subsection}{\numberline {III.4.3}Satz:}{29}
+\contentsline {subsection}{\numberline {III.4.4}Folgerung:}{29}
+\contentsline {subsection}{\numberline {III.4.5}Bewertung:}{29}
+\contentsline {subsection}{\numberline {III.4.6}Satz:}{30}
+\contentsline {subsection}{\numberline {III.4.7}Beispiel:}{30}
+\contentsline {subsection}{\numberline {III.4.8}Konstruktion:}{30}
+\contentsline {section}{\numberline {III.5}Endliche K\IeC {\"o}rper}{30}
+\contentsline {subsection}{\numberline {III.5.1}Satz:}{30}

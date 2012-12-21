@@ -7,4 +7,79 @@ Stest sei $K$ ein Körper.
 Sei $f \in K[x] \diagdown K$ \underline{fest}. Wir betrachten die Menge $\{g + f \cdot K[x]|g \in K[x]\} = K[x]/f \cdot K[x] = \{g+f\cdot K[x]|g \in K[x]$ mit grad$g <$ grad$f\}$ Wie beim Übergang $\mathbb{Z}\leadsto\mathbb{Z}/n\mathbb{Z}$ wird $K[x]/f \cdot K[x]$ ein kommutativer Rint mit eins vermöge: \\
 $\overline{g} + \overline{h} = \overline{g+h}$ und $\overline{g} \cdot \overline{h} = \overline{gh} \ \forall g,h \in K[x]$ wo $ \overline{g} = g + K[x]$\\
 Da jede Nebenklasse $\overline{g}$ genau einen Vertreter vom Grad <grad$f$ enthält.\\
-Wird also nur mit Polynomen som Grad < grad$f$ gerechnet und bei Überschreiten der Gradgrenze modulo$f$ reduziert. 
+Wird also nur mit Polynomen som Grad < grad$f$ gerechnet und bei Überschreiten der Gradgrenze modulo$f$ reduziert. \\
+K ein fester Körper, $f \in K[x]\diagdown K$ \underline{fest}\\
+$K[x]/fK[x] = \{\mathop{\underbrace{g+f K[x]|}}\limits_{=\overline{g}}g\in K[x],$ grad$g <$ grad$f\}$\\
+\begin{equation*}
+\overline{g} + \overline{h} = \overline{g+h}, \ \overline{g} \cdot \overline{h} = \overline{gh} \qquad \forall g,h \in K[x]/fK[x]
+\end{equation*}
+%
+%
+%
+\subsection{Beispiel:}
+Wähle $K=\mathbb{Z}/n\mathbb{Z}, \ f=x^{3}+x+1 \in K[x]$\\
+$\Rightarrow K[x]/fK[x] = \{\overline{g}|g\in K[x]$ mit grad$g < 3\}$ enthält $ 2 \cdot 2 \cdot 2 = 8$ Elemente mit $\overline{f}=\overline{0},$ d.h. $x^{3} = x+1$ und $f$.\\
+$\Rightarrow(x^{2}+1)\cdot(x^{2}+x+1)=x^{4}+x^{3}+x^{2}+x^{2}+x+1=x^{4}+x^{3}+x+1\equiv x^{4}=x^{3}\cdot x \equiv x \cdot(x+1)=x^{2}+x$ und $f$\\
+d.h. $\overline{(x^{2}+1)}\cdot\overline{(x^{2}+x+1)}=\overline{x^{2}+x}$ in $K[x]/fK[x]$
+%
+%
+%
+\subsection{Satz:}
+Seien $f \in K[x] \diagdown K$ und $g \in K[x]\diagdown \{0\}$. Genau dann ist $\overline{g}$ in $K[x]/fK[x]$ invertierbar, wenn $ggT(f,g)=1$\\
+\textbf{Beweis:} vgl. $\mathbb{Z}/z\mathbb{Z}$
+%
+%
+%
+\subsection{Folgerung:}
+Genau dann ist $K[x]/fK[x]$ ein Körper, wenn $f$ in $K[x]$ irreduzibel ist.
+%
+%
+%
+\subsection{Bewertung:}
+Sei $S$ ein kommutativer Ring mit Eins. Der Körper $K$ sei $\mathop{\text{ein Teilring von $S$ mit}}\limits_{S\text{ ist ein Ringhomomorphismus}}$ mit $A_{S} = A_{K}$ Für \underline{festes} $a \in S$. \\
+\qquad\\
+\begin{centering}
+$\varepsilon_{a} : K[x] \longrightarrow S$\\
+$f \longrightarrow f(a)$\\
+$f$ wird gegeben durch $\sum\limits^{r}_{i=0}c_{i}x^{i}$\\
+$f(a)$ wird gegeben durch $\sum\limits^{r}_{i=0}c_{i}a^{i}$\\
+\end{centering}
+Wir müssen $a$ eine Nullstelle von $f$ in $S$ falls $f(a)=0$
+%
+%
+%
+\subsection{Satz:}
+Genau dann ist $a \in K$ Nullstelle von $f \in K[x]$, wenn gilt $x-a|f$ in $K[x]$. (d.h. $f=(x-a)g$ mit $g \in K[x]$).
+\begin{description}
+	\item[Beweis:] $f(a) = 0 \Leftrightarrow \varepsilon_{a}(f)=0 \Leftrightarrow f \in \mathop{\underbrace{\text{ Kern} 
+				\in a}}\limits_{\text{ist ein Ideal in }K[x]}$
+	\begin{description}
+		\item[Klar:] $(x-a) \in$ Kern $\varepsilon_{a}$, also $(x-a) \ K[x] \subseteq$ Kern $\varepsilon_{a}$.
+		\item[Ferner:] $\mathop{K}\limits_{\mathop{\text{konstantes Polynome in } K[x] \Rightarrow \text{ Kern 
+					}\varepsilon_{a}=(x-a) \cdot K[x]}\limits^{\uparrow}} \cap$ Kern$\varepsilon_{a}=\{0\}$\\
+					$\Rightarrow x-a$ ist Polynom in Kern$\varepsilon_{a}\diagdown\{0\}$ von 
+					kleinstmöglichem Grad.
+	\end{description}
+\end{description}
+%
+%
+%
+\subsection{Beispiel:}
+Fortsetzung von 4.2: $K=\mathbb{Z}/n\mathbb{Z}$, \quad $f=x^{3}+x+1 \in K[x]$ \\
+$f$ ist irreduzibel in $K[x]$, $\mathop{\text{da }f\text{ keine Nullstelle in }}\limits_{\text{(und grad}f=3\text{ ist)}}\mathbb{Z}/2\mathbb{Z}$ hat.\\
+$K[x]/fK[x]$ ist ein Körper mit 8 Elementen.\\
+Beachte: $\mathbb{Z}/8\mathbb{Z}$ ist \underline{kein} Körper. 
+%
+%
+%
+\subsection{Konstruktion:}
+Sei $f \in K[x]$ irreduzibel. Bilde $L=K[x]/fK[x]$. Wir betrachten $K$ als Teilkörper von $L$ via\\
+$c \in K \longleftrightarrow \overline{c} \in L$ \\
+Dann ist $f \in K[x] \subseteq L[x]$ und $\overline{x}$ ist Nullstelle von $f$ in $L$. \\
+\begin{description}
+	\item[Beweis:] Sei $f = \sum\limits^{r}_{i=0}c_{i}x^{i} \ \in K[x]$, also $c_{i} \in K$\\
+				$= \sum\limits^{r}_{i=0}\overline{c_{i}}x^{i} \in L[x]$\\
+				$\Rightarrow f(\overline{x}) = \mathop{\underbrace{\sum\limits^{r}_{i=0} c_{i}x^{i}}}\limits_{ \in 
+				L} = \overline{\sum\limits^{r}_{i=0} c_{i} x^{i}} = \overline{f} \mathop{=} \limits^{\mathop{
+				L=K[x]/fK[x]}\limits_{\downarrow}} 0$
+\end{description}
