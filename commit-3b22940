@@ -1,0 +1,10 @@
+commit 3b22940c4f6a2c60d791be17789079c873cf54ab
+Author: Freekkel <s.bamberger@blanchwood.de>
+Date:   Fri Jan 4 12:25:32 2013 +0100
+
+    Vergessene Multiplikationstabelle hinzugefuegt
+
+diff --git a/latex/mainmatter/chapter3/pics/multitabelle.png b/latex/mainmatter/chapter3/pics/multitabelle.png
+new file mode 100644
+index 0000000..32faddc
+Binary files /dev/null and b/latex/mainmatter/chapter3/pics/multitabelle.png differ
